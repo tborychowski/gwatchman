@@ -1,0 +1,17 @@
+#labels Featured
+== Pop-ups ==
+|| *Native Popup - bottom* || *Native Popup - top* ||
+|| http://gwatchman.googlecode.com/hg/screens/alert-new.png || http://gwatchman.googlecode.com/hg/screens/alert-top.png ||
+
+|| *Native Popup - single* || *Native Popup - wide* ||
+|| http://gwatchman.googlecode.com/hg/screens/alert-single.png || http://gwatchman.googlecode.com/hg/screens/alert-wide.png ||
+
+|| *Growl Popup* || 
+|| http://gwatchman.googlecode.com/hg/screens/growl.png ||
+
+== Settings Dialog ==
+|| *Account settings* || *Alert Settings* ||
+|| http://gwatchman.googlecode.com/hg/screens/settings-account.png || http://gwatchman.googlecode.com/hg/screens/settings-alert.png ||
+
+|| *General settings* || *About* ||
+|| http://gwatchman.googlecode.com/hg/screens/settings-general.png || http://gwatchman.googlecode.com/hg/screens/settings-about.png ||

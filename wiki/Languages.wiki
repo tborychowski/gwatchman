@@ -1,0 +1,43 @@
+#summary Description of the localization process and language files
+#labels Featured
+
+= Localization =
+
+Since version 1.0.5.0 GWatchman supports localization.
+Application starts in English by default and you can change the language in Settings>General.
+
+The dropdown will show you the list of language files located in "lang" folder in the application directory (i.e. English.xml)
+Default - English is available even if there is no English language file.
+
+A language file is simple xml file with language strings.
+
+
+== How to translate == 
+You can translate GWatchman to your language yourself.
+To do that just do a copy of English.xml and rename it to your language name (i.e. Polish.xml).
+Than edit the file in any text editor you like.
+
+In the xml file you'll see something like that:
+{{{
+<item id="hideLinkTip">Minimize to system tray</item>
+}}}
+Translate the text between "_item_" tags. (do not translate the "_id_"!), i.e.:
+{{{
+<item id="hideLinkTip">Zminimalizuj do zasobnika</item>
+}}}
+
+If you want to contribute - send me your translation (herhor@o2.pl) and I will put it here next to your nickname.
+
+
+== Available Languages ==
+Right-click -> Save as:
+|| Translated by || Language file || Version || Last update ||
+|| [mailto:herhor@o2.pl me] || [http://gwatchman.googlecode.com/hg/languages/English.xml English] || 1.1 ||  01/11/2010 ||
+|| [mailto:herhor@o2.pl me] || [http://gwatchman.googlecode.com/hg/languages/Polish.xml Polish] || 1.1 || 01/11/2010 ||
+|| [mailto:tian.exe@gmail.com Tevin] || [http://gwatchman.googlecode.com/hg/languages/Chinese.xml Chinese] || 1.1 || 11/10/2010 ||
+|| [mailto:eme3studio@gmail.com ToMMZ] || [http://gwatchman.googlecode.com/hg/languages/Spanish.xml Spanish] || 1.0 || 04/11/2010 ||
+|| Aga || [http://gwatchman.googlecode.com/hg/languages/German.xml German] || 1.0 || 11/11/2010 ||
+|| [mailto:lang@hlang.com LANG] || [http://gwatchman.googlecode.com/hg/languages/Japanese.xml Japanese] || 1.0 || 20/11/2010 ||
+|| [mailto:sea4hans@gmail.com Kevin] || [http://gwatchman.googlecode.com/hg/languages/Korean.xml Korean] || 1.0 || 27/11/2010 ||
+|| Trambulhao || [http://gwatchman.googlecode.com/hg/languages/Portuguese.xml Portuguese] || 1.1 || 05/04/2011 ||
+|| Drugo || [http://gwatchman.googlecode.com/hg/languages/Italian.xml Italian] || 1.0 || 05/04/2011 ||
