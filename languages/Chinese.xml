@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?><!DOCTYPE lang[<!ELEMENT lang (item+)><!ELEMENT item (#PCDATA)><!ATTLIST item id ID #REQUIRED>]>
+<lang>
+	<!-- ALERT -->
+	<item id="hide">隐藏</item>
+	<item id="hideLinkTip">最小化到系统托盘</item>
+	<item id="readerLabelTip">检查阅读器</item>
+	<item id="readerLogoTip">在浏览器中打开</item>
+	<item id="mailLabelTip">检查邮件</item>
+	<item id="mailLogoTip">在浏览器中打开</item>
+	<item id="oneMessageAlert">你有 %n 封未读邮件</item>
+	<item id="manyMessagesAlert">你有 %n 封未读邮件</item>
+	<item id="oneFeedAlert">你有 %n 条未读订阅</item>
+	<item id="manyFeedsAlert">你有 %n 条未读订阅</item>
+	
+	<!-- Tray Menu -->
+	<item id="show">显示</item>
+	<item id="settings">设置</item>
+	<item id="update">更新</item>
+	<item id="exit">退出</item>
+	
+	<!-- Update dialog -->
+	<item id="updateNotAvailableTitle">暂无更新</item>
+	<item id="updateNotAvailableMsg">你的GWatchman已经是最新版了</item>
+	<item id="updateAvailableTitle">发现可用更新</item>
+	<item id="updateAvailable">发现新版的GWatchman！</item>
+	<item id="yourVersion">当前版本</item>
+	<item id="latestVersion">最新版本</item>
+	<item id="downloadLatestQuestion">是否下载最新版？</item>	
+
+
+	<!-- SETTINGS -->
+	
+	<!-- tree -->
+	<item id="account">账号</item>
+	<item id="alert">通知</item>
+	<item id="general">常规</item>
+	<item id="about">关于</item>
+
+	<!-- buttons -->
+	<item id="close">取消</item>
+	<item id="apply">应用</item>
+
+	<!-- account page -->
+	<item id="username">用户名</item>
+	<item id="password">密码</item>
+	<item id="rememberLogin">保存账号</item>
+	<item id="rememberPassword">保存账号密码</item>
+	<item id="mail">GMail</item>
+	<item id="reader">GoogleReader</item>
+	<item id="checkEvery">自动更新每</item>
+	<item id="noAutoCheck">禁止自动更新</item>
+	
+	<!-- alert page -->
+	<item id="action">行为</item>
+	<item id="nativePopup">自动弹出（原生）</item>
+	<item id="nativePopupSettings">自动弹出设置</item>
+	<item id="position">位置</item>
+	<item id="top">顶部</item>
+	<item id="bottom">底部</item>
+	<item id="middle">中间</item>
+	<item id="left">左侧</item>
+	<item id="right">右侧</item>
+	<item id="center">居中</item>
+	<item id="custom">自定义</item>
+	<item id="background">背景</item>
+	<item id="backgroundTip">显示“background”文件夹内的图片列表 \n(包括png,bmp,jpg,gif)</item>
+	<item id="textColor">文字颜色</item>
+	<item id="textColorTip">html十六进制颜色代码或颜色名称, 例如：</item>
+	<item id="opacity">不透明度</item>
+	<item id="dismissDelay">持续显示时间</item>
+
+	<!-- general page -->
+	<item id="language">语言</item>
+	<item id="startWithSystem">开机启动</item>
+	<item id="getLanguages">获取更多语言</item>
+	<item id="updateOnStart">程序启动自动检查更新</item>
+
+	<!-- about page -->
+	<item id="aboutText">GWatchman是一个免费软件，开发这个软件是为了消磨时间，顺便让一些事情变得更容易更快捷。\n\n如果你想知道更多关于本软件的细节，请访问本软件的项目网站：</item>
+</lang>

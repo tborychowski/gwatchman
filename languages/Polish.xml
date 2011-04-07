@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?><!DOCTYPE lang[<!ELEMENT lang (item+)><!ELEMENT item (#PCDATA)><!ATTLIST item id ID #REQUIRED>]>
+<lang>
+	<!-- ALERT -->
+	<item id="hide">ukryj</item>
+	<item id="hideLinkTip">Zminimalizuj do zasobnika</item>
+	<item id="readerLabelTip">Sprawdź czytnik teraz</item>
+	<item id="readerLogoTip">Otwórz w przeglądarce</item>
+	<item id="mailLabelTip">Sprawdź pocztę teraz</item>
+	<item id="mailLogoTip">Otwórz w przeglądarce</item>
+	<item id="oneMessageAlert">Masz %n nową wiadomość</item>
+	<item id="manyMessagesAlert">Masz %n nowych wiadomości</item>
+	<item id="oneFeedAlert">Masz %n nowy news</item>
+	<item id="manyFeedsAlert">Masz %n nowych newsów</item>
+
+	<!-- Tray Menu -->
+	<item id="show">Sprawdź</item>
+	<item id="settings">Ustawienia</item>
+	<item id="update">Aktualizuj</item>
+	<item id="exit">Wyjdź</item>
+
+	<!-- Update dialog -->
+	<item id="updateNotAvailableTitle">Brak aktualizacji</item>
+	<item id="updateNotAvailableMsg">Używasz najnowszej wersji programu GWatchman</item>
+	<item id="updateAvailableTitle">Aktualizacja dostępna</item>
+	<item id="updateAvailable">Dostępna jest nowsza wersja programu GWatchman!</item>
+	<item id="yourVersion">Twoja wersja</item>
+	<item id="latestVersion">Najnowsza wersja</item>
+	<item id="downloadLatestQuestion">Chcesz pobrać najnowszą wersję?</item>	
+
+
+	<!-- SETTINGS -->
+	
+	<!-- tree -->
+	<item id="account">Konto</item>
+	<item id="alert">Alert</item>
+	<item id="general">Ogólne</item>
+	<item id="about">O programie</item>
+	
+	<!-- buttons -->
+	<item id="close">Zamknij</item>
+	<item id="apply">Zastosuj</item>
+	
+	<!-- account page -->
+	<item id="username">Login</item>
+	<item id="password">Hasło</item>
+	<item id="rememberLogin">Zapamiętaj login</item>
+	<item id="rememberPassword">Zapamiętaj login i hasło</item>
+	<item id="mail">Poczta</item>
+	<item id="reader">Czytnik</item>
+	<item id="checkEvery">Sprawdzaj co</item>
+	<item id="noAutoCheck">Nie sprawdzaj automatycznie</item>
+	
+	<!-- alert page -->
+	<item id="action">Akcja</item>
+	<item id="nativePopup">Natywny pop-up</item>
+	<item id="nativePopupSettings">Ustawienia natywnego pop-up</item>
+	<item id="position">Pozycja na ekranie</item>
+	<item id="top">Góra</item>
+	<item id="bottom">Dół</item>
+	<item id="middle">Środek</item>
+	<item id="left">Lewej</item>
+	<item id="right">Prawo</item>
+	<item id="center">Środek</item>
+	<item id="custom">Użytkownika</item>
+	<item id="background">Obrazek tła</item>
+	<item id="backgroundTip">Wyświetla listę obrazków (png,bmp,jpg,gif)\nz folderu 'background'</item>
+	<item id="textColor">Kolor tekstu</item>
+	<item id="textColorTip">kolor html jako hex lub nazwa angielska, np.:</item>
+	<item id="opacity">Przezroczystość</item>
+	<item id="dismissDelay">Schowaj po</item>
+
+	<!-- general page -->
+	<item id="language">Język</item>
+	<item id="startWithSystem">Startuj z systemem</item>
+	<item id="getLanguages">Pobierz więcej języków</item>
+	<item id="updateOnStart">Sprawdzaj aktualizacje przy starcie</item>
+
+	<!-- about page -->
+	<item id="aboutText">GWatchman jest darmową aplikacją stworzoną dla zabicia czasu i ułatwienia oraz przyspieszenia paru rzeczy.\n\nWięcej informacji znajdziesz na stronie programu:</item>
+</lang>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?><!DOCTYPE lang[<!ELEMENT lang (item+)><!ELEMENT item (#PCDATA)><!ATTLIST item id ID #REQUIRED>]>
+<lang>
+	<!-- ALERT -->
+	<item id="hide">隠す</item>
+	<item id="hideLinkTip">システムトレイに最小化</item>
+	<item id="readerLabelTip">今すぐリーダーを確認</item>
+	<item id="readerLogoTip">ブラウザで開く</item>
+	<item id="mailLabelTip">今すぐメールを確認</item>
+	<item id="mailLogoTip">ブラウザで開く</item>
+	<item id="oneMessageAlert">未読メッセージ数: %n </item>
+	<item id="manyMessagesAlert">複数の未読メッセージ数: %n </item>
+	<item id="oneFeedAlert">未読フィード数: %n </item>
+	<item id="manyFeedsAlert">複数の未読フィード数: %n </item>
+	
+	<!-- Tray Menu -->
+	<item id="show">表示</item>
+	<item id="settings">設定</item>
+	<item id="update">アップデート</item>
+	<item id="exit">終了</item>
+	
+	<!-- Update dialog -->
+	<item id="updateNotAvailableTitle">アップデート無し</item>
+	<item id="updateNotAvailableMsg">すでにGwatchmanは最新バージョンです。</item>
+	<item id="updateAvailableTitle">アップデートあり</item>
+	<item id="updateAvailable">Gwatchmanの最新バージョンがあります！</item>
+	<item id="yourVersion">バージョン</item>
+	<item id="latestVersion">最新バージョン</item>
+	<item id="downloadLatestQuestion">最新バージョンをダウンロードしますか？</item>	
+
+
+	<!-- SETTINGS -->
+	
+	<!-- tree -->
+	<item id="account">アカウント</item>
+	<item id="alert">通知</item>
+	<item id="general">一般設定</item>
+	<item id="about">ハージョン</item>
+
+	<!-- buttons -->
+	<item id="close">終了</item>
+	<item id="apply">適用</item>
+
+	<!-- account page -->
+	<item id="username">ログインネーム</item>
+	<item id="password">パスワード</item>
+	<item id="rememberLogin">ログインネームを記憶</item>
+	<item id="rememberPassword">ログインネームとパスワードを記憶</item>
+	<item id="mail">メール</item>
+	<item id="reader">リーダー</item>
+	<item id="checkEvery">チェック間隔</item>
+	<item id="noAutoCheck">自動的にチェックしない</item>
+	
+	<!-- alert page -->
+	<item id="action">Action</item>
+	<item id="nativePopup">Gwatchman独自のポップアップ</item>
+	<item id="nativePopupSettings">ポップアップ設定</item>
+	<item id="position">位置</item>
+	<item id="top">上</item>
+	<item id="bottom">下</item>
+	<item id="middle">中</item>
+	<item id="left">左</item>
+	<item id="right">右</item>
+	<item id="center">中</item>
+	<item id="custom">カスタム</item>
+	<item id="background">背景</item>
+	<item id="backgroundTip">イメージのリストを表示(png,bmp,jpg,gif)\n'背景'フォルダから</item>
+	<item id="textColor">文字色</item>
+	<item id="textColorTip">HTMLのHex color又は名前 :</item>
+	<item id="opacity">不透明度</item>
+	<item id="dismissDelay">消えるまでの遅延時間</item>
+
+	<!-- general page -->
+	<item id="language">言語</item>
+	<item id="startWithSystem">ログイン時に自動的に起動</item>
+	<item id="getLanguages">他の言語を取得</item>
+	<item id="updateOnStart">スタート時にアップデートをチェック</item>
+
+	<!-- about page -->
+	<item id="aboutText">GWatchmanは手短により簡単に作成されたフリーウェアアプリケーションです。\n\nもしより詳細を知りたい場合には、プロジェクトウェブサイトを訪ねてください。</item>
+</lang>
