@@ -32,12 +32,13 @@ If you want to contribute - send me your translation (herhor@o2.pl) and I will p
 == Available Languages ==
 Right-click -> Save as:
 || Translated by || Language file || Version || Last update ||
-|| [mailto:herhor@o2.pl me] || [http://gwatchman.googlecode.com/hg/languages/English.xml English] || 1.1 ||  01/11/2010 ||
-|| [mailto:herhor@o2.pl me] || [http://gwatchman.googlecode.com/hg/languages/Polish.xml Polish] || 1.1 || 01/11/2010 ||
-|| [mailto:tian.exe@gmail.com Tevin] || [http://gwatchman.googlecode.com/hg/languages/Chinese.xml Chinese] || 1.1 || 11/10/2010 ||
-|| [mailto:eme3studio@gmail.com ToMMZ] || [http://gwatchman.googlecode.com/hg/languages/Spanish.xml Spanish] || 1.0 || 04/11/2010 ||
-|| Aga || [http://gwatchman.googlecode.com/hg/languages/German.xml German] || 1.0 || 11/11/2010 ||
-|| [mailto:lang@hlang.com LANG] || [http://gwatchman.googlecode.com/hg/languages/Japanese.xml Japanese] || 1.0 || 20/11/2010 ||
-|| [mailto:sea4hans@gmail.com Kevin] || [http://gwatchman.googlecode.com/hg/languages/Korean.xml Korean] || 1.0 || 27/11/2010 ||
-|| Trambulhao || [http://gwatchman.googlecode.com/hg/languages/Portuguese.xml Portuguese] || 1.1 || 05/04/2011 ||
-|| Drugo || [http://gwatchman.googlecode.com/hg/languages/Italian.xml Italian] || 1.0 || 05/04/2011 ||
+|| [mailto:herhor@o2.pl me] || [http://gwatchman.googlecode.com/svn/languages/English.xml English] || 1.1 ||  01/11/2010 ||
+|| [mailto:herhor@o2.pl me] || [http://gwatchman.googlecode.com/svn/languages/Polish.xml Polish] || 1.1 || 01/11/2010 ||
+|| [mailto:tian.exe@gmail.com Tevin] || [http://gwatchman.googlecode.com/svn/languages/Chinese.xml Chinese] || 1.1 || 11/10/2010 ||
+|| [mailto:eme3studio@gmail.com ToMMZ] || [http://gwatchman.googlecode.com/svn/languages/Spanish.xml Spanish] || 1.0 || 04/11/2010 ||
+|| Aga || [http://gwatchman.googlecode.com/svn/languages/German.xml German] || 1.0 || 11/11/2010 ||
+|| [mailto:lang@hlang.com LANG] || [http://gwatchman.googlecode.com/svn/languages/Japanese.xml Japanese] || 1.0 || 20/11/2010 ||
+|| [mailto:sea4hans@gmail.com Kevin] || [http://gwatchman.googlecode.com/svn/languages/Korean.xml Korean] || 1.0 || 27/11/2010 ||
+|| Trambulhao || [http://gwatchman.googlecode.com/svn/languages/Portuguese.xml Portuguese] || 1.1 || 05/04/2011 ||
+|| Drugo || [http://gwatchman.googlecode.com/svn/languages/Italian.xml Italian] || 1.0 || 05/04/2011 ||
+|| Ilkin || [http://gwatchman.googlecode.com/svn/languages/Azerbaijani.xml Azerbaijani] || 1.0 || 07/04/2011 ||
