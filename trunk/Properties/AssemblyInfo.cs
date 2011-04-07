@@ -11,7 +11,7 @@ using System.Resources;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Herhor")]
 [assembly: AssemblyProduct("GWatchman")]
-[assembly: AssemblyCopyright("Copyright © 2010 Herhor")]
+[assembly: AssemblyCopyright("Copyright © 2011 Herhor")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

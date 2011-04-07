@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual C# Express 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GWatch", "GWatch.csproj", "{1AE179BB-BFFC-4E2A-A661-95F53B0CACBC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GWatchman", "GWatchman.csproj", "{1AE179BB-BFFC-4E2A-A661-95F53B0CACBC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

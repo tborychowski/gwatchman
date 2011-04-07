@@ -529,7 +529,7 @@ namespace GWatchNS
 			this.silentUpdate = silent;
 			System.Net.WebClient client = new System.Net.WebClient();
 			client.DownloadDataCompleted += new System.Net.DownloadDataCompletedEventHandler(this.checkLatestVersionComplete);
-			client.DownloadDataAsync(new Uri("http://gwatchman.googlecode.com/hg/update/latest.xml"));
+			client.DownloadDataAsync(new Uri("http://gwatchman.googlecode.com/svn/update/latest.xml"));
 		}
 		private void checkLatestVersionComplete(Object sender, System.Net.DownloadDataCompletedEventArgs e) {
 			Exception error = e.Error;
