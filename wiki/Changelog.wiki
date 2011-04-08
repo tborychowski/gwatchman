@@ -1,6 +1,13 @@
 #labels Featured
 = Changelog =
 
+=== v.1.0.6.6 beta (2011-04-08) ===
+ * Added translation for Azerbaijani and Italian
+ * Changed "Dismiss Delay" option from seconds to miliseconds
+ * Application file and settings file renamed from GWatch to GWatchman (if you have settings in old file - "GWatch.xml" latest version will rename it automatically)
+ * Removed dependency for growl dll files (if you don't use growl - you can now remove those files)
+ * Added 1-file "mini" version to downloads
+ 
 === v.1.0.6.5 beta (2011-03-28) ===
  * Added translation for Korean and Portuguese
  * Fixed issue 37 when program displayed a .NET error on start-up (thanks to m.sobotka)
