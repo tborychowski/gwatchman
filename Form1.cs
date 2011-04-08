@@ -8,8 +8,10 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
-using Growl.Connector;
 using System.Globalization;
+using System.IO;
+using System.Reflection;
+using Growl.Connector;
 
 namespace GWatchNS
 {
@@ -19,7 +21,7 @@ namespace GWatchNS
 		private Locale lang;
 
 		private Google myGoogle = new Google();
-      private Timer gmailTicker = new Timer();
+		private Timer gmailTicker = new Timer();
 		private Timer readerTicker = new Timer();
 		private Timer autoHideTicker = new Timer();
 
@@ -29,18 +31,20 @@ namespace GWatchNS
 		private int readerItemsCount = 0;
 
 		private settingsForm settingsWindow;
-		public SettingsMgr SettingsMgr;	// class  from Settings.cs
-		public Settings AppSettings;	// struct from Settings.cs
+		public SettingsMgr SettingsMgr = new SettingsMgr();	// class  from Settings.cs
+		public Settings AppSettings;						// struct from Settings.cs
 
 		public delegate void SettingsHandler();
 
-		private GrowlConnector growl;
-		private Growl.Connector.Application growlApp;
-		private NotificationType growlNotifyMail, growlNotifyReader;
-		private Boolean growlReady = false;
 		private String[] appArgs;
 		private Boolean silentStart = false;
 		private Boolean silentUpdate = false;
+
+		private Boolean growlAvailable = false;
+		private Boolean growlRunning = false;
+		private GrowlConnector growl;
+		private Growl.Connector.Application growlApp;
+		private NotificationType growlNotifyMail, growlNotifyReader;
 
 		#endregion Vars /********************************************************************************************************************/
 
@@ -54,78 +58,55 @@ namespace GWatchNS
         }
 
         private void GWatch_Load(object sender, EventArgs e){
-			trayIcon.ContextMenu = trayMenu;
-
-			if (this.appArgs.Length > 0) foreach(string arg in this.appArgs){
-				if (arg.Substring(1) == "autorun") silentStart = true;		// wont show "Growl not running" warning
-				if (arg.Substring(1) == "debug") myGoogle.debug = true;		// will generate GWatch.log
-				if (arg.Substring(1) == "proxy") myGoogle.useProxy = true;		// will generate GWatch.log
-			}
-
-			this.autoHideTicker.Interval = 1000;
-			this.autoHideTicker.Tick += new System.EventHandler(this.autoHideTicker_Tick);
-			this.autoHideTicker.Enabled = true;
-
-			this.trayAnimationTimer.Tick += new System.EventHandler(this.doTrayAnimation);
-
-			this.gmailTicker.Tick += new System.EventHandler(this.gmailTicker_Tick);
-			this.readerTicker.Tick += new System.EventHandler(this.readerTicker_Tick);
-			myGoogle.showPopup += new Google.CheckHandler(showPopup_Handler);
-			myGoogle.MailComplete += new Google.CheckHandler(mail_CheckComplete);
-			myGoogle.ReaderComplete += new Google.CheckHandler(reader_CheckComplete);
-
-			SettingsMgr = new SettingsMgr();
-			SettingsChanged_Handler(true);
-			this.AppSettings.version = this.getVersion();
-
-			if (AppSettings.alert_action_Popup.ToLower() == "false") this.hideHandler();
-
-			if (AppSettings.general_updateOnStart.ToLower() == "true") this.checkForUpdates();
+			this.initEvents();
+			this.SettingsChanged_Handler(true);
         }
 		#endregion Init /*******************************************************************************************************************/
 
 
 
 		#region Growl /**********************************************************************************************************************/
+		private Boolean checkGrowlLibraries() { return (File.Exists("Growl.Connector.dll") && File.Exists("Growl.CoreLibrary.dll")); }
 
-		private void growlInit(Boolean silent=false){
-			this.growlReady = GrowlConnector.IsGrowlRunningLocally();
-			// init Growl
-			if (AppSettings.alert_action_Growl.ToLower() == "true") {
-				if (this.growlReady == false) {
-					if (silent==false)
-						MessageBox.Show("Growl is not running!", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-				}
-				else
-					try {
-						this.growl = new GrowlConnector();
-						this.growlRegister();
-					}
-					finally { }
-			}
+		private void growlInit() {
+			this.growlAvailable = this.checkGrowlLibraries();										// check if files are available
+			if (this.growlAvailable) this.growlRunning = GrowlConnector.IsGrowlRunningLocally();	// check if growl is running
 		}
 
-		private void growlRegister() {
-			if (this.growlReady == true) {
-				// growl application
-				this.growlApp = new Growl.Connector.Application("GWatchman");
-				this.growlApp.Icon = Properties.Resources.google32;
-				// notification types
-				this.growlNotifyMail = new NotificationType("mail", "Google Mail", Properties.Resources.gmail, true);
-				this.growlNotifyReader = new NotificationType("reader", "Google Reader", Properties.Resources.reader, true);
-				// register
-				this.growl.Register(growlApp, new NotificationType[] { growlNotifyMail, growlNotifyReader });
+
+		private void growlRegister(Boolean silent=false){
+			if (this.growlAvailable == false) return;						// if growl is unavailable - exit;
+			if (AppSettings.alert_action_Growl.ToLower() == "true") {
+				if (this.growlRunning == false) {
+					if (silent == false) MessageBox.Show("Growl is not running!", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+				}
+				else {	// Init GROWL
+					try {
+						this.growl = new GrowlConnector();
+						// growl application
+						this.growlApp = new Growl.Connector.Application("GWatchman");
+						this.growlApp.Icon = Properties.Resources.google32;
+						// notification types
+						this.growlNotifyMail = new NotificationType("mail", "Google Mail", Properties.Resources.gmail, true);
+						this.growlNotifyReader = new NotificationType("reader", "Google Reader", Properties.Resources.reader, true);
+						// register
+						this.growl.Register(growlApp, new NotificationType[] { growlNotifyMail, growlNotifyReader });
+					}
+					finally { }
+				}
 			}
 		}
 
 		private void growlNotify(string type, string msg){
+			if (this.growlAvailable == false) return;						// if growl is unavailable - exit;
+
 			Notification note;
 			String notName="", dispName="";
 			CallbackContext context = new CallbackContext("http://google.com");
 
-			if (this.growlReady == false) this.growlInit(true);
+			if (this.growlRunning == false) this.growlRegister(true);
 
-			if (this.growlReady == true) {
+			if (this.growlRunning == true) {
 				if (type == "mail") {
 					notName = this.growlNotifyMail.Name;
 					dispName="Google Mail";
@@ -148,6 +129,30 @@ namespace GWatchNS
 
 		#region General functions /**********************************************************************************************************/
 
+		private void initEvents() {
+			if (this.appArgs.Length > 0) foreach (string arg in this.appArgs) {
+					if (arg.Substring(1) == "autorun") this.silentStart = true;		// wont show "Growl not running" warning
+					if (arg.Substring(1) == "debug") this.myGoogle.debug = true;			// will generate GWatch.log
+					if (arg.Substring(1) == "proxy") this.myGoogle.useProxy = true;		// will generate GWatch.log
+				}
+
+			this.autoHideTicker.Interval = 1000;
+			this.autoHideTicker.Tick += new System.EventHandler(this.autoHideTicker_Tick);
+			this.autoHideTicker.Enabled = true;
+
+			this.trayAnimationTimer.Tick += new System.EventHandler(this.doTrayAnimation);
+
+			this.gmailTicker.Tick += new System.EventHandler(this.gmailTicker_Tick);
+			this.readerTicker.Tick += new System.EventHandler(this.readerTicker_Tick);
+			myGoogle.showPopup += new Google.CheckHandler(showPopup_Handler);
+			myGoogle.MailComplete += new Google.CheckHandler(mail_CheckComplete);
+			myGoogle.ReaderComplete += new Google.CheckHandler(reader_CheckComplete);
+
+			// init GROWL
+			try { this.growlInit(); }
+			catch (Exception er) { this.growlAvailable = false; }
+		}
+
 		public void exitHandler(){ this.trayIcon.Dispose(); System.Windows.Forms.Application.Exit(); }
 
 		public void showHideHandler() { if (WindowState == FormWindowState.Minimized) this.showHandler(); else this.hideHandler(); }
@@ -161,7 +166,7 @@ namespace GWatchNS
 					String[] strAr = AppSettings.alert_DismissDelay.Split('.');
 					AppSettings.alert_DismissDelay = strAr[0];
 				}
-				dismissDelay = int.Parse(AppSettings.alert_DismissDelay) * 1000;
+				dismissDelay = int.Parse(AppSettings.alert_DismissDelay);
 			}
 
 			WindowState = FormWindowState.Normal;
@@ -217,9 +222,8 @@ namespace GWatchNS
 
 		//showpopup event
 		private void showPopup_Handler(string status, string message){
-			if (AppSettings.alert_action_Popup.ToLower() == "true") this.showHandler();
-			else this.hideHandler();
-			if (AppSettings.alert_action_Growl.ToLower() == "true") {
+			if (AppSettings.alert_action_Popup.ToLower() == "true") this.showHandler(); else this.hideHandler();
+			if (this.growlAvailable && AppSettings.alert_action_Growl.ToLower() == "true") {
 				if (status == "reader") this.growlNotify("reader", reader_int_to_message(message));	// "You have " + message + " unread feeds";
 				else if (status == "mail") this.growlNotify("mail", mail_int_to_message(message));	// "You have " + message + " unread messages"
 			}
@@ -237,16 +241,14 @@ namespace GWatchNS
 			this.settingsWindow.SettingsChanged += new SettingsHandler(SettingsChanged_Handler);
 			this.settingsWindow.AppSettings = AppSettings;
 			this.settingsWindow.initTab = tab;
+			this.settingsWindow.growlCheckboxAvailable(this.growlAvailable);
 			this.settingsWindow.Show();
 		}
 
-		private void SettingsChanged_Handler() {
-			SettingsChanged_Handler(false);
-		}
+		private void SettingsChanged_Handler() { SettingsChanged_Handler(false); }
 		private void SettingsChanged_Handler(bool appinit = false) {
 			if (this.settingsWindow != null) AppSettings = this.settingsWindow.AppSettings;
 			else AppSettings = SettingsMgr.read();
-
 
 			//init language
 			lang = new Locale(AppSettings.general_Lang);
@@ -272,8 +274,9 @@ namespace GWatchNS
 			this.readerLabel.ForeColor = System.Drawing.ColorTranslator.FromHtml(AppSettings.alert_Color);
 			this.mailLabel.ForeColor = System.Drawing.ColorTranslator.FromHtml(AppSettings.alert_Color);
 
+			
 			// init Growl
-			this.growlInit(silentStart);
+			if (this.growlAvailable) this.growlRegister(this.silentStart);
 
 			// gmail
 			if (AppSettings.account_MailOn.ToLower() == "true") {
@@ -306,6 +309,10 @@ namespace GWatchNS
 				// if one of those is empty - open settings dialog
 				if (AppSettings.account_Username == "" || AppSettings.account_Password=="") this.openSettings();
 			}
+
+			AppSettings.version = this.getVersion();
+			if (AppSettings.alert_action_Popup.ToLower() == "false") this.hideHandler();
+			if (AppSettings.general_updateOnStart.ToLower() == "true") this.checkForUpdates();
 		}
 
 
@@ -447,7 +454,7 @@ namespace GWatchNS
 
 		private void trayIcon_MouseClick(object sender, MouseEventArgs e) {
 			if (e.Button == MouseButtons.Left) {
-				if (this.growlReady == false) this.growlInit(false);
+				if (this.growlAvailable) { if (this.growlRunning == false) this.growlRegister(false); }
 				if (AppSettings.account_MailOn.ToLower() == "true") this.gmailCheck(true);
 				if (AppSettings.account_ReaderOn.ToLower() == "true") this.readerCheck(false, true);
 			}

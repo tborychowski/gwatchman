@@ -31,6 +31,14 @@
 			this.components = new System.ComponentModel.Container();
 			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GWatch));
 			this.trayIcon = new System.Windows.Forms.NotifyIcon(this.components);
+			this.trayMenu = new System.Windows.Forms.ContextMenu();
+			this.trayMenuCheck = new System.Windows.Forms.MenuItem();
+			this.menuItem7 = new System.Windows.Forms.MenuItem();
+			this.trayMenuSettings = new System.Windows.Forms.MenuItem();
+			this.trayMenuUpdate = new System.Windows.Forms.MenuItem();
+			this.trayMenuAbout = new System.Windows.Forms.MenuItem();
+			this.menuItem6 = new System.Windows.Forms.MenuItem();
+			this.trayMenuQuit = new System.Windows.Forms.MenuItem();
 			this.mailLabel = new System.Windows.Forms.Label();
 			this.readerLabel = new System.Windows.Forms.Label();
 			this.mailLogo = new System.Windows.Forms.PictureBox();
@@ -42,14 +50,6 @@
 			this.mailPanel = new System.Windows.Forms.Panel();
 			this.readerPanel = new System.Windows.Forms.Panel();
 			this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-			this.trayMenu = new System.Windows.Forms.ContextMenu();
-			this.trayMenuCheck = new System.Windows.Forms.MenuItem();
-			this.menuItem7 = new System.Windows.Forms.MenuItem();
-			this.trayMenuSettings = new System.Windows.Forms.MenuItem();
-			this.trayMenuUpdate = new System.Windows.Forms.MenuItem();
-			this.trayMenuAbout = new System.Windows.Forms.MenuItem();
-			this.menuItem6 = new System.Windows.Forms.MenuItem();
-			this.trayMenuQuit = new System.Windows.Forms.MenuItem();
 			((System.ComponentModel.ISupportInitialize)(this.mailLogo)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.readerLogo)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.mailLoader)).BeginInit();
@@ -62,10 +62,63 @@
 			// trayIcon
 			// 
 			this.trayIcon.BalloonTipTitle = "GWatch";
+			this.trayIcon.ContextMenu = this.trayMenu;
 			this.trayIcon.Icon = ((System.Drawing.Icon)(resources.GetObject("trayIcon.Icon")));
 			this.trayIcon.Visible = true;
 			this.trayIcon.MouseClick += new System.Windows.Forms.MouseEventHandler(this.trayIcon_MouseClick);
 			this.trayIcon.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.trayIcon_MouseDoubleClick);
+			// 
+			// trayMenu
+			// 
+			this.trayMenu.MenuItems.AddRange(new System.Windows.Forms.MenuItem[] {
+            this.trayMenuCheck,
+            this.menuItem7,
+            this.trayMenuSettings,
+            this.trayMenuUpdate,
+            this.trayMenuAbout,
+            this.menuItem6,
+            this.trayMenuQuit});
+			// 
+			// trayMenuCheck
+			// 
+			this.trayMenuCheck.DefaultItem = true;
+			this.trayMenuCheck.Index = 0;
+			this.trayMenuCheck.Text = "Check Now";
+			this.trayMenuCheck.Click += new System.EventHandler(this.trayCheckNow_Click);
+			// 
+			// menuItem7
+			// 
+			this.menuItem7.Index = 1;
+			this.menuItem7.Text = "-";
+			// 
+			// trayMenuSettings
+			// 
+			this.trayMenuSettings.Index = 2;
+			this.trayMenuSettings.Text = "Settings";
+			this.trayMenuSettings.Click += new System.EventHandler(this.settingsToolStripMenuItem_Click);
+			// 
+			// trayMenuUpdate
+			// 
+			this.trayMenuUpdate.Index = 3;
+			this.trayMenuUpdate.Text = "Update";
+			this.trayMenuUpdate.Click += new System.EventHandler(this.trayCheckForUpdates_Click);
+			// 
+			// trayMenuAbout
+			// 
+			this.trayMenuAbout.Index = 4;
+			this.trayMenuAbout.Text = "About";
+			this.trayMenuAbout.Click += new System.EventHandler(this.trayAbout_Click);
+			// 
+			// menuItem6
+			// 
+			this.menuItem6.Index = 5;
+			this.menuItem6.Text = "-";
+			// 
+			// trayMenuQuit
+			// 
+			this.trayMenuQuit.Index = 6;
+			this.trayMenuQuit.Text = "Quit";
+			this.trayMenuQuit.Click += new System.EventHandler(this.trayQuit_Click);
 			// 
 			// mailLabel
 			// 
@@ -225,58 +278,6 @@
 			this.flowLayoutPanel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel_MouseDown);
 			this.flowLayoutPanel1.MouseEnter += new System.EventHandler(this.panel_MouseEnter);
 			this.flowLayoutPanel1.MouseLeave += new System.EventHandler(this.panel_MouseLeave);
-			// 
-			// trayMenu
-			// 
-			this.trayMenu.MenuItems.AddRange(new System.Windows.Forms.MenuItem[] {
-            this.trayMenuCheck,
-            this.menuItem7,
-            this.trayMenuSettings,
-            this.trayMenuUpdate,
-            this.trayMenuAbout,
-            this.menuItem6,
-            this.trayMenuQuit});
-			// 
-			// trayMenuCheck
-			// 
-			this.trayMenuCheck.DefaultItem = true;
-			this.trayMenuCheck.Index = 0;
-			this.trayMenuCheck.Text = "Check Now";
-			this.trayMenuCheck.Click += new System.EventHandler(this.trayCheckNow_Click);
-			// 
-			// menuItem7
-			// 
-			this.menuItem7.Index = 1;
-			this.menuItem7.Text = "-";
-			// 
-			// trayMenuSettings
-			// 
-			this.trayMenuSettings.Index = 2;
-			this.trayMenuSettings.Text = "Settings";
-			this.trayMenuSettings.Click += new System.EventHandler(this.settingsToolStripMenuItem_Click);
-			// 
-			// trayMenuUpdate
-			// 
-			this.trayMenuUpdate.Index = 3;
-			this.trayMenuUpdate.Text = "Update";
-			this.trayMenuUpdate.Click += new System.EventHandler(this.trayCheckForUpdates_Click);
-			// 
-			// trayMenuAbout
-			// 
-			this.trayMenuAbout.Index = 4;
-			this.trayMenuAbout.Text = "About";
-			this.trayMenuAbout.Click += new System.EventHandler(this.trayAbout_Click);
-			// 
-			// menuItem6
-			// 
-			this.menuItem6.Index = 5;
-			this.menuItem6.Text = "-";
-			// 
-			// trayMenuQuit
-			// 
-			this.trayMenuQuit.Index = 6;
-			this.trayMenuQuit.Text = "Quit";
-			this.trayMenuQuit.Click += new System.EventHandler(this.trayQuit_Click);
 			// 
 			// GWatch
 			// 

@@ -34,10 +34,13 @@ namespace GWatchNS {
 		XmlNode temp;
 		XmlAttribute tempA;
 		Settings conf;
-		String settingsFileName = System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location) + "\\GWatch.xml";
-	    string passcode = "G00glŁ@czmen";
+		String oldSettingsFileName = System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location) + "\\GWatch.xml";
+		String settingsFileName = System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location) + "\\GWatchman.xml";
+		string passcode = "G00glŁ@czmen";
 
 		public Settings read() {
+			if (System.IO.File.Exists(oldSettingsFileName)) System.IO.File.Move("GWatch.xml","GWatchman.xml");
+
 			try {
 				if (System.IO.File.Exists(settingsFileName)) xmlDoc.Load(settingsFileName);
 				else throw new XmlException("Settings file not found");
@@ -153,7 +156,7 @@ namespace GWatchNS {
 			conf.alert_Opacity = "100";
 			conf.alert_Color = "#fff";
 			conf.alert_Image = "";
-			conf.alert_DismissDelay = "3";
+			conf.alert_DismissDelay = "3000";
 			conf.version = "0";
 			return conf;
 		}

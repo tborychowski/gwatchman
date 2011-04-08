@@ -123,7 +123,7 @@
 			this.splitContainer1.Panel1.Controls.Add(this.settingsTree);
 			this.splitContainer1.Panel1.Cursor = System.Windows.Forms.Cursors.Default;
 			this.splitContainer1.Panel1.Padding = new System.Windows.Forms.Padding(5);
-			this.splitContainer1.Panel1MinSize = 100;
+			this.splitContainer1.Panel1MinSize = 110;
 			// 
 			// splitContainer1.Panel2
 			// 
@@ -136,7 +136,7 @@
 			this.splitContainer1.Panel2.Margin = new System.Windows.Forms.Padding(0, 0, 0, 50);
 			this.splitContainer1.Panel2MinSize = 100;
 			this.splitContainer1.Size = new System.Drawing.Size(576, 355);
-			this.splitContainer1.SplitterDistance = 100;
+			this.splitContainer1.SplitterDistance = 110;
 			this.splitContainer1.SplitterWidth = 1;
 			this.splitContainer1.TabIndex = 1;
 			// 
@@ -168,7 +168,7 @@
             treeNode4});
 			this.settingsTree.ShowLines = false;
 			this.settingsTree.ShowRootLines = false;
-			this.settingsTree.Size = new System.Drawing.Size(90, 345);
+			this.settingsTree.Size = new System.Drawing.Size(100, 345);
 			this.settingsTree.TabIndex = 1;
 			this.settingsTree.NodeMouseClick += new System.Windows.Forms.TreeNodeMouseClickEventHandler(this.treeView1_NodeMouseClick);
 			// 
@@ -185,7 +185,7 @@
 			this.settingsPanelAlert.Location = new System.Drawing.Point(0, 0);
 			this.settingsPanelAlert.Margin = new System.Windows.Forms.Padding(0);
 			this.settingsPanelAlert.Name = "settingsPanelAlert";
-			this.settingsPanelAlert.Size = new System.Drawing.Size(475, 355);
+			this.settingsPanelAlert.Size = new System.Drawing.Size(465, 355);
 			this.settingsPanelAlert.TabIndex = 9;
 			this.settingsPanelAlert.Visible = false;
 			// 
@@ -196,7 +196,7 @@
 			this.settingsAlertLabel.Location = new System.Drawing.Point(0, 0);
 			this.settingsAlertLabel.Name = "settingsAlertLabel";
 			this.settingsAlertLabel.Padding = new System.Windows.Forms.Padding(10, 7, 10, 5);
-			this.settingsAlertLabel.Size = new System.Drawing.Size(475, 35);
+			this.settingsAlertLabel.Size = new System.Drawing.Size(465, 35);
 			this.settingsAlertLabel.TabIndex = 2;
 			this.settingsAlertLabel.Text = "Alert";
 			this.settingsAlertLabel.Paint += new System.Windows.Forms.PaintEventHandler(this.settingsAlertLabel_Paint);
@@ -220,7 +220,7 @@
 			this.nativePopupSettingsGroupBox.Location = new System.Drawing.Point(10, 145);
 			this.nativePopupSettingsGroupBox.MinimumSize = new System.Drawing.Size(435, 0);
 			this.nativePopupSettingsGroupBox.Name = "nativePopupSettingsGroupBox";
-			this.nativePopupSettingsGroupBox.Size = new System.Drawing.Size(453, 184);
+			this.nativePopupSettingsGroupBox.Size = new System.Drawing.Size(443, 184);
 			this.nativePopupSettingsGroupBox.TabIndex = 3;
 			this.nativePopupSettingsGroupBox.TabStop = false;
 			this.nativePopupSettingsGroupBox.Text = "Native pop-up settings";
@@ -230,15 +230,20 @@
 			this.label14.AutoSize = true;
 			this.label14.Location = new System.Drawing.Point(228, 147);
 			this.label14.Name = "label14";
-			this.label14.Size = new System.Drawing.Size(30, 17);
+			this.label14.Size = new System.Drawing.Size(26, 17);
 			this.label14.TabIndex = 19;
-			this.label14.Text = "sec";
+			this.label14.Text = "ms";
 			// 
 			// settingsAlertDismissDelay
 			// 
+			this.settingsAlertDismissDelay.Increment = new decimal(new int[] {
+            500,
+            0,
+            0,
+            0});
 			this.settingsAlertDismissDelay.Location = new System.Drawing.Point(150, 145);
 			this.settingsAlertDismissDelay.Maximum = new decimal(new int[] {
-            3600,
+            600000,
             0,
             0,
             0});
@@ -251,10 +256,10 @@
 			this.settingsAlertDismissDelay.Size = new System.Drawing.Size(73, 23);
 			this.settingsAlertDismissDelay.TabIndex = 18;
 			this.settingsAlertDismissDelay.Value = new decimal(new int[] {
-            30,
+            3000,
             0,
             0,
-            65536});
+            0});
 			// 
 			// settingsDismissDelayLabel
 			// 
@@ -374,7 +379,7 @@
 			this.actionGroupBox.Location = new System.Drawing.Point(10, 44);
 			this.actionGroupBox.MinimumSize = new System.Drawing.Size(435, 0);
 			this.actionGroupBox.Name = "actionGroupBox";
-			this.actionGroupBox.Size = new System.Drawing.Size(453, 87);
+			this.actionGroupBox.Size = new System.Drawing.Size(443, 87);
 			this.actionGroupBox.TabIndex = 4;
 			this.actionGroupBox.TabStop = false;
 			this.actionGroupBox.Text = "Action";
@@ -415,7 +420,7 @@
 			this.settingsPanelGeneral.Location = new System.Drawing.Point(0, 0);
 			this.settingsPanelGeneral.Margin = new System.Windows.Forms.Padding(0);
 			this.settingsPanelGeneral.Name = "settingsPanelGeneral";
-			this.settingsPanelGeneral.Size = new System.Drawing.Size(475, 355);
+			this.settingsPanelGeneral.Size = new System.Drawing.Size(465, 355);
 			this.settingsPanelGeneral.TabIndex = 7;
 			this.settingsPanelGeneral.Visible = false;
 			// 
@@ -469,7 +474,7 @@
 			this.settingsGeneralLabel.Margin = new System.Windows.Forms.Padding(3, 0, 3, 10);
 			this.settingsGeneralLabel.Name = "settingsGeneralLabel";
 			this.settingsGeneralLabel.Padding = new System.Windows.Forms.Padding(10, 7, 10, 5);
-			this.settingsGeneralLabel.Size = new System.Drawing.Size(475, 35);
+			this.settingsGeneralLabel.Size = new System.Drawing.Size(465, 35);
 			this.settingsGeneralLabel.TabIndex = 1;
 			this.settingsGeneralLabel.Text = "General";
 			this.settingsGeneralLabel.Paint += new System.Windows.Forms.PaintEventHandler(this.settingsGeneralLabel_Paint);
@@ -499,7 +504,7 @@
 			this.settingsPanelAbout.Location = new System.Drawing.Point(0, 0);
 			this.settingsPanelAbout.Margin = new System.Windows.Forms.Padding(0);
 			this.settingsPanelAbout.Name = "settingsPanelAbout";
-			this.settingsPanelAbout.Size = new System.Drawing.Size(475, 355);
+			this.settingsPanelAbout.Size = new System.Drawing.Size(465, 355);
 			this.settingsPanelAbout.TabIndex = 10;
 			this.settingsPanelAbout.Visible = false;
 			// 
@@ -525,7 +530,7 @@
 			this.settingsAboutText.Margin = new System.Windows.Forms.Padding(5, 5, 5, 0);
 			this.settingsAboutText.Name = "settingsAboutText";
 			this.settingsAboutText.Padding = new System.Windows.Forms.Padding(10, 15, 10, 10);
-			this.settingsAboutText.Size = new System.Drawing.Size(475, 109);
+			this.settingsAboutText.Size = new System.Drawing.Size(465, 109);
 			this.settingsAboutText.TabIndex = 0;
 			this.settingsAboutText.Text = "GWatchman is a freeware app created to kill time and to make a few things easier " +
 				"and quicker.\r\n\r\nIf you need more details visit the project\'s website:";
@@ -538,7 +543,7 @@
 			this.settingsAboutLabel.Margin = new System.Windows.Forms.Padding(3, 0, 3, 5);
 			this.settingsAboutLabel.Name = "settingsAboutLabel";
 			this.settingsAboutLabel.Padding = new System.Windows.Forms.Padding(10, 7, 10, 5);
-			this.settingsAboutLabel.Size = new System.Drawing.Size(475, 35);
+			this.settingsAboutLabel.Size = new System.Drawing.Size(465, 35);
 			this.settingsAboutLabel.TabIndex = 6;
 			this.settingsAboutLabel.Text = "About GWatchman";
 			this.settingsAboutLabel.Paint += new System.Windows.Forms.PaintEventHandler(this.settingsAboutLabel_Paint);
@@ -562,7 +567,7 @@
 			this.settingsPanelAccounts.Location = new System.Drawing.Point(0, 0);
 			this.settingsPanelAccounts.Margin = new System.Windows.Forms.Padding(0);
 			this.settingsPanelAccounts.Name = "settingsPanelAccounts";
-			this.settingsPanelAccounts.Size = new System.Drawing.Size(475, 355);
+			this.settingsPanelAccounts.Size = new System.Drawing.Size(465, 355);
 			this.settingsPanelAccounts.TabIndex = 8;
 			this.settingsPanelAccounts.Visible = false;
 			// 
@@ -577,7 +582,7 @@
 			this.groupBox2.Location = new System.Drawing.Point(10, 239);
 			this.groupBox2.MinimumSize = new System.Drawing.Size(441, 0);
 			this.groupBox2.Name = "groupBox2";
-			this.groupBox2.Size = new System.Drawing.Size(454, 95);
+			this.groupBox2.Size = new System.Drawing.Size(444, 95);
 			this.groupBox2.TabIndex = 8;
 			this.groupBox2.TabStop = false;
 			this.groupBox2.Text = "   ";
@@ -612,7 +617,7 @@
 			this.settingsReaderFreqBar.Location = new System.Drawing.Point(80, 54);
 			this.settingsReaderFreqBar.Maximum = 9;
 			this.settingsReaderFreqBar.Name = "settingsReaderFreqBar";
-			this.settingsReaderFreqBar.Size = new System.Drawing.Size(365, 30);
+			this.settingsReaderFreqBar.Size = new System.Drawing.Size(355, 30);
 			this.settingsReaderFreqBar.TabIndex = 9;
 			this.settingsReaderFreqBar.TickStyle = System.Windows.Forms.TickStyle.TopLeft;
 			this.settingsToolTip.SetToolTip(this.settingsReaderFreqBar, "How often to check your google reader\r\nfor unread feeds");
@@ -638,7 +643,7 @@
 			this.groupBox1.Location = new System.Drawing.Point(10, 133);
 			this.groupBox1.MinimumSize = new System.Drawing.Size(441, 0);
 			this.groupBox1.Name = "groupBox1";
-			this.groupBox1.Size = new System.Drawing.Size(454, 95);
+			this.groupBox1.Size = new System.Drawing.Size(444, 95);
 			this.groupBox1.TabIndex = 7;
 			this.groupBox1.TabStop = false;
 			this.groupBox1.Text = "   ";
@@ -673,7 +678,7 @@
 			this.settingsMailFreqBar.Location = new System.Drawing.Point(80, 54);
 			this.settingsMailFreqBar.Maximum = 9;
 			this.settingsMailFreqBar.Name = "settingsMailFreqBar";
-			this.settingsMailFreqBar.Size = new System.Drawing.Size(365, 30);
+			this.settingsMailFreqBar.Size = new System.Drawing.Size(355, 30);
 			this.settingsMailFreqBar.TabIndex = 7;
 			this.settingsMailFreqBar.TickStyle = System.Windows.Forms.TickStyle.TopLeft;
 			this.settingsToolTip.SetToolTip(this.settingsMailFreqBar, "How often to check your mailbox\r\nfor unread messages ");
@@ -695,7 +700,7 @@
 			this.settingsAccountLabel.Location = new System.Drawing.Point(0, 0);
 			this.settingsAccountLabel.Name = "settingsAccountLabel";
 			this.settingsAccountLabel.Padding = new System.Windows.Forms.Padding(10, 7, 10, 5);
-			this.settingsAccountLabel.Size = new System.Drawing.Size(475, 35);
+			this.settingsAccountLabel.Size = new System.Drawing.Size(465, 35);
 			this.settingsAccountLabel.TabIndex = 6;
 			this.settingsAccountLabel.Text = "Account";
 			this.settingsAccountLabel.Paint += new System.Windows.Forms.PaintEventHandler(this.settingsAccountLabel_Paint);
