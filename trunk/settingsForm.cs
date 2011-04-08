@@ -84,8 +84,7 @@ namespace GWatchNS {
 				files = dirInfo.GetFiles("*.xml");
 				foreach (FileInfo fi in files) {
 					string fname = Path.GetFileNameWithoutExtension(fi.Name);
-					if (fname.ToLower() != "english")
-						settingsLangCombo.Items.Add(fname);
+					if (fname.ToLower() != "english") settingsLangCombo.Items.Add(fname);
 				}
 				if (conf.general_Lang.Length > 0) settingsLangCombo.SelectedIndex = settingsLangCombo.FindString(conf.general_Lang);
 			}
@@ -258,6 +257,10 @@ namespace GWatchNS {
 
 
 		#region UI controls
+
+		public void growlCheckboxAvailable(Boolean growlAvailable) {
+			this.settingsAlertActionGrowlChBox.Enabled = growlAvailable;
+		}
 
 		public void switchSettingsPanel(String node){
             settingsPanelGeneral.Visible = false;
