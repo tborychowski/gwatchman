@@ -6,7 +6,7 @@
 Since version 1.0.5.0 GWatchman supports localization.
 Application starts in English by default and you can change the language in Settings>General.
 
-The dropdown will show you the list of language files located in "lang" folder in the application directory (i.e. English.xml)
+The dropdown will show you the list of language files located in "lang" folder in the application directory (e.g. English.xml)
 Default - English is available even if there is no English language file.
 
 A language file is simple xml file with language strings.
@@ -14,7 +14,7 @@ A language file is simple xml file with language strings.
 
 == How to translate == 
 You can translate GWatchman to your language yourself.
-To do that just do a copy of English.xml and rename it to your language name (i.e. Polish.xml).
+To do that just do a copy of English.xml and rename it to your language name (e.g. Polish.xml).
 Than edit the file in any text editor you like.
 
 In the xml file you'll see something like that:
