@@ -21,7 +21,7 @@ In the xml file you'll see something like that:
 {{{
 <item id="hideLinkTip">Minimize to system tray</item>
 }}}
-Translate the text between "_item_" tags. (do not translate the "_id_"!), i.e.:
+Translate the text between "_item_" tags. (do not translate the "_id_"!), e.g.:
 {{{
 <item id="hideLinkTip">Zminimalizuj do zasobnika</item>
 }}}
