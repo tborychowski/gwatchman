@@ -15,7 +15,7 @@ using Growl.Connector;
 
 namespace GWatchNS
 {
-	public partial class GWatch : Form {
+	public partial class Popup : Form {
 
 		#region Vars /***********************************************************************************************************************/
 		private Locale lang;
@@ -52,7 +52,7 @@ namespace GWatchNS
 
 		#region Init /***********************************************************************************************************************/
 
-		public GWatch(String[] args){
+		public Popup(String[] args){
 			this.appArgs = args;
             InitializeComponent();
         }
@@ -609,7 +609,7 @@ namespace GWatchNS
 
 		#endregion
 
-	}
+    }
 
 
 
