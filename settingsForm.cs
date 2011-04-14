@@ -20,7 +20,7 @@ namespace GWatchNS {
 		public SettingsMgr SettingsMgr;	// class
 		public Settings AppSettings;	// struct
 		public String initTab;
-		public event GWatch.SettingsHandler SettingsChanged;
+		public event Popup.SettingsHandler SettingsChanged;
 		private Locale lang;
 
 		

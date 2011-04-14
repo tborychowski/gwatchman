@@ -15,7 +15,7 @@ namespace GWatchNS
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new GWatch(args));
+            Application.Run(new Popup(args));
         }
     }
 }
