@@ -41,4 +41,7 @@ Right-click -> Save as:
 || [mailto:sea4hans@gmail.com Kevin] || [http://gwatchman.googlecode.com/svn/languages/Korean.xml Korean] || 1.0 || 27/11/2010 ||
 || [mailto:herhor@o2.pl me] || [http://gwatchman.googlecode.com/svn/languages/Polish.xml Polish] || 1.1 || 01/11/2010 ||
 || Trambulhao || [http://gwatchman.googlecode.com/svn/languages/Portuguese.xml Portuguese] || 1.1 || 05/04/2011 ||
+|| Pohran || [http://gwatchman.googlecode.com/svn/languages/Russian.xml Russian] || 1.0 || 30/05/2011 ||
 || [mailto:eme3studio@gmail.com ToMMZ] || [http://gwatchman.googlecode.com/svn/languages/Spanish.xml Spanish] || 1.0 || 04/11/2010 ||
+
+
