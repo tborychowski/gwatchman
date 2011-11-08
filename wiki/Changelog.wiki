@@ -1,6 +1,12 @@
 #labels Featured
 = Changelog =
 
+=== v.1.0.6.7 beta (2011-11-08) ===
+ * Added Russian translation
+ * It works with hosted domains (google apps) (issue 22)
+ * Gmail url for getting unread messages counter updated (issue 49, issue 50)
+ * Fixed reader issue with password containing strange characters (issue 45), thanks to Santy
+
 === v.1.0.6.6 beta (2011-04-08) ===
  * Added translation for Azerbaijani and Italian
  * Changed "Dismiss Delay" option from seconds to miliseconds

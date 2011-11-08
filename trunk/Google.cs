@@ -41,7 +41,7 @@ public class Google
 			return; 
 		}
 
-		String gUrl = "https://mail.google.com/mail/feed/atom/unread"; // show all folders
+		String gUrl = "https://mail.google.com/mail/feed/atom"; // show all folders
 		this.gmailForcePopup = forcePopup;
         WebClient gmailClient = new WebClient();
 		if (useProxy) {
@@ -104,9 +104,10 @@ public class Google
 				readerClient.Proxy = WebRequest.GetSystemWebProxy();
 				readerClient.Proxy.Credentials = System.Net.CredentialCache.DefaultCredentials;
 			}
+            
             readerClient.QueryString.Add("service", "reader");
             readerClient.QueryString.Add("Email", usn);
-            readerClient.QueryString.Add("Passwd", pas);
+            readerClient.QueryString.Add("Passwd", Uri.EscapeDataString(pas));
             readerClient.DownloadStringCompleted += new DownloadStringCompletedEventHandler(this.readerSIDComplete);
             readerClient.DownloadStringAsync(new Uri("https://www.google.com/accounts/ClientLogin"));
         }
