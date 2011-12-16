@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?><!DOCTYPE lang[<!ELEMENT lang (item+)><!ELEMENT item (#PCDATA)><!ATTLIST item id ID #REQUIRED>]>
+<lang>
+	<!-- ALERT -->
+	<item id="hide">gizle</item>
+	<item id="hideLinkTip">Simge durumuna küçült</item>
+	<item id="readerLabelTip">Okuyucuyu şimdi kontrol et</item>
+	<item id="readerLogoTip">Tarayıcıda aç</item>
+	<item id="mailLabelTip">Mail'i şimdi kontrol et</item>
+	<item id="mailLogoTip">Tarayıcıda aç</item>
+	<item id="oneMessageAlert">%n tane okunmamış mesajın var</item>
+	<item id="manyMessagesAlert">%n okunmamış mesajların var</item>
+	<item id="oneFeedAlert">%n tane okunmamış akışın var</item>
+	<item id="manyFeedsAlert">%n tane okunmamış akışın var</item>
+	
+	<!-- Tray Menu -->
+	<item id="show">Göster</item>
+	<item id="settings">Ayarlar</item>
+	<item id="update">Güncelleme</item>
+	<item id="exit">Çıkış</item>
+	
+	<!-- Update dialog -->
+	<item id="updateNotAvailableTitle">Güncelleme mevcut değil</item>
+	<item id="updateNotAvailableMsg">GWatchman'in en yeni versiyonunu kullanıyorsun</item>
+	<item id="updateAvailableTitle">Güncelleme mevcut</item>
+	<item id="updateAvailable">GWatchman'in yeni versiyonu çıktı</item>
+	<item id="yourVersion">Senin versiyonun</item>
+	<item id="latestVersion">En yeni versiyon</item>
+	<item id="downloadLatestQuestion">En yeni dosyayı indirmek istermisiniz?</item>	
+
+
+	<!-- SETTINGS -->
+	
+	<!-- tree -->
+	<item id="account">Hesap</item>
+	<item id="alert">Alarm</item>
+	<item id="general">Genel</item>
+	<item id="about">Hakkında</item>
+
+	<!-- buttons -->
+	<item id="close">Kapat</item>
+	<item id="apply">Uygula</item>
+
+	<!-- account page -->
+	<item id="username">Kullanıcı adı</item>
+	<item id="password">Parola</item>
+	<item id="rememberLogin">Beni hatırla</item>
+	<item id="rememberPassword">Şifremi ve kullanıcı adımı hatırla</item>
+	<item id="mail">Mail</item>
+	<item id="reader">Okuyucu</item>
+	<item id="checkEvery">Kaç saniyede bir denetle?</item>
+	<item id="noAutoCheck">Otomatik denetlemeyi devre dışı bırak</item>
+	
+	<!-- alert page -->
+	<item id="action">Aksiyon</item>
+	<item id="nativePopup">Açılır Pencere</item>
+	<item id="nativePopupSettings">Açılır Pencere ayarları</item>
+	<item id="position">Pozisyon</item>
+	<item id="top">Üst</item>
+	<item id="bottom">Alt</item>
+	<item id="middle">Orta</item>
+	<item id="left">Sol</item>
+	<item id="right">Sağ</item>
+	<item id="center">Ortala</item>
+	<item id="custom">Özel</item>
+	<item id="background">Arkaplan</item>
+	<item id="backgroundTip">Resimlerin listesini(png,bmp,jpg,gif)\n'arkaplan'dosyasından göster</item>
+	<item id="textColor">Yazı rengi</item>
+	<item id="textColorTip">html renk kodu veya adı</item>
+	<item id="opacity">Saydamlık</item>
+	<item id="dismissDelay">Gecikmeye izin ver</item>
+
+	<!-- general page -->
+	<item id="language">Dil</item>
+	<item id="startWithSystem">Sistemle beraber başlat</item>
+	<item id="getLanguages">Daha fazla dil edin</item>
+	<item id="updateOnStart">Başlangıçta güncellemeyi kontrol et</item>
+
+	<!-- about page -->
+	<item id="aboutText">GWatchman zaman kaybını önlemek ve bir kaç şeyi hızlı ve kolayca yapmak için oluşturulmuş bedava bir uygulamadır.\n\nDaha fazla bilgiye ihtiyacın varsa projenin sitesine girebilirsin:</item>
+</lang>
