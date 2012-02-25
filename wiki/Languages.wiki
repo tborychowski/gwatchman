@@ -26,7 +26,7 @@ Translate the text between "_item_" tags. (do not translate the "_id_"!), e.g.:
 <item id="hideLinkTip">Zminimalizuj do zasobnika</item>
 }}}
 
-If you want to contribute - send me your translation (herhor@o2.pl) and I will put it here next to your nickname.
+If you want to contribute - send me your translation (tborychowski@gmail) and I will put it here next to your nickname.
 
 
 == Available Languages ==
@@ -44,5 +44,3 @@ Right-click -> Save as:
 || Pohran || [http://gwatchman.googlecode.com/svn/languages/Russian.xml Russian] || 1.0 || 30/05/2011 ||
 || [mailto:eme3studio@gmail.com ToMMZ] || [http://gwatchman.googlecode.com/svn/languages/Spanish.xml Spanish] || 1.0 || 04/11/2010 ||
 || Pyloge || [http://gwatchman.googlecode.com/svn/languages/Turkish.xml Turkish] || 1.0 || 10/12/2011 ||
-
-
