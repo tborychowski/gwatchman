@@ -44,3 +44,4 @@ Right-click -> Save as:
 || Pohran || [http://gwatchman.googlecode.com/svn/languages/Russian.xml Russian] || 1.0 || 30/05/2011 ||
 || [mailto:eme3studio@gmail.com ToMMZ] || [http://gwatchman.googlecode.com/svn/languages/Spanish.xml Spanish] || 1.0 || 04/11/2010 ||
 || Pyloge || [http://gwatchman.googlecode.com/svn/languages/Turkish.xml Turkish] || 1.0 || 10/12/2011 ||
+|| Yoann || [http://gwatchman.googlecode.com/svn/languages/French.xml French] || 1.0 || 25/02/2012 ||

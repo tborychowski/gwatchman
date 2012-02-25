@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?><!DOCTYPE lang[<!ELEMENT lang (item+)><!ELEMENT item (#PCDATA)><!ATTLIST item id ID #REQUIRED>]>
+<lang>
+	<!-- ALERT -->
+	<item id="hide">Cacher</item>
+	<item id="hideLinkTip">Minimiser dans la zone de notification</item>
+	<item id="readerLabelTip">Vérifier Google Reader</item>
+	<item id="readerLogoTip">Ouvrir dans le navigateur</item>
+	<item id="mailLabelTip">Vérifier Gmail</item>
+	<item id="mailLogoTip">Ouvrir dans le navigateur</item>
+	<item id="oneMessageAlert">Vous avez %n nouveau message</item>
+	<item id="manyMessagesAlert">Vous avez %n nouveaux messages</item>
+	<item id="oneFeedAlert">Vous avez %n nouvelle info</item>
+	<item id="manyFeedsAlert">Vous avez %n nouvelles infos</item>
+	
+	<!-- Tray Menu -->
+	<item id="show">Afficher</item>
+	<item id="settings">Préférences</item>
+	<item id="update">Mettre à jour</item>
+	<item id="exit">Quitter</item>
+	
+	<!-- Update dialog -->
+	<item id="updateNotAvailableTitle">Aucune mise à jour disponible</item>
+	<item id="updateNotAvailableMsg">Vous utilisez la dernière version de GWatchman</item>
+	<item id="updateAvailableTitle">Mise à jour disponible</item>
+	<item id="updateAvailable">Une nouvelle version de GWatchman est disponible!</item>
+	<item id="yourVersion">Votre version</item>
+	<item id="latestVersion">Dernière version</item>
+	<item id="downloadLatestQuestion">Voulez-vous télécharger la mise à jour?</item>	
+
+
+	<!-- SETTINGS -->
+	
+	<!-- tree -->
+	<item id="account">Compte</item>
+	<item id="alert">Alerte</item>
+	<item id="general">Général</item>
+	<item id="about">A propos</item>
+
+	<!-- buttons -->
+	<item id="close">Fermer</item>
+	<item id="apply">Appliquer</item>
+
+	<!-- account page -->
+	<item id="username">Utilisateur</item>
+	<item id="password">Mot de passe</item>
+	<item id="rememberLogin">Se souvenir de l'utilisateur</item>
+	<item id="rememberPassword">Se souvenir du mot de passe</item>
+	<item id="mail">GMail</item>
+	<item id="reader">Google Reader</item>
+	<item id="checkEvery">Vérifier toutes les</item>
+	<item id="noAutoCheck">Aucune vérification automatique</item>
+	
+	<!-- alert page -->
+	<item id="action">Action</item>
+	<item id="nativePopup">Pop-up</item>
+	<item id="nativePopupSettings">Paramètres des pop-up</item>
+	<item id="position">Position</item>
+	<item id="top">Haut</item>
+	<item id="bottom">Bas</item>
+	<item id="middle">Milieu</item>
+	<item id="left">Gauche</item>
+	<item id="right">Droite</item>
+	<item id="center">Centre</item>
+	<item id="custom">Personnalisée</item>
+	<item id="background">Arrière-plan</item>
+	<item id="backgroundTip">Affiche la liste des images (png,bmp,jpg,gif)\ncontenues dans le dossier 'background'</item>
+	<item id="textColor">Couleur du texte</item>
+	<item id="textColorTip">Nom ou code html de la couleur. Exemple :</item>
+	<item id="opacity">Opacité</item>
+	<item id="dismissDelay">Durée d'affichage</item>
+
+	<!-- general page -->
+	<item id="language">Langue</item>
+	<item id="startWithSystem">Démarrer avec Windows</item>
+	<item id="getLanguages">Télécharger d'autres langues</item>
+	<item id="updateOnStart">Vérifier les mises à jour au démarrage</item>
+
+	<!-- about page -->
+	<item id="aboutText">GWatchman est une application gratuite créée pour tuer le temps et pour rendre les choses plus simples et plus rapides.\n\nSi vous voulez en savoir plus, visitez le site Web du projet:</item>
+</lang>
