@@ -31,18 +31,18 @@ If you want to contribute - send me your translation (tborychowski@gmail) and I 
 
 == Available Languages ==
 Right-click -> Save as:
-|| Translated by || Language file || Version || Last update ||
-|| Ilkin || [http://gwatchman.googlecode.com/svn/languages/Azerbaijani.xml Azerbaijani] || 1.0 || 07/04/2011 ||
-|| [mailto:tian.exe@gmail.com Tevin] || [http://gwatchman.googlecode.com/svn/languages/Chinese.xml Chinese] || 1.1 || 11/10/2010 ||
-|| [mailto:herhor@o2.pl me] || [http://gwatchman.googlecode.com/svn/languages/English.xml English] || 1.1 ||  01/11/2010 ||
-|| Aga || [http://gwatchman.googlecode.com/svn/languages/German.xml German] || 1.0 || 11/11/2010 ||
-|| Drugo || [http://gwatchman.googlecode.com/svn/languages/Italian.xml Italian] || 1.0 || 05/04/2011 ||
-|| [mailto:lang@hlang.com LANG] || [http://gwatchman.googlecode.com/svn/languages/Japanese.xml Japanese] || 1.0 || 20/11/2010 ||
-|| [mailto:sea4hans@gmail.com Kevin] || [http://gwatchman.googlecode.com/svn/languages/Korean.xml Korean] || 1.0 || 27/11/2010 ||
-|| [mailto:herhor@o2.pl me] || [http://gwatchman.googlecode.com/svn/languages/Polish.xml Polish] || 1.1 || 01/11/2010 ||
-|| Trambulhao || [http://gwatchman.googlecode.com/svn/languages/Portuguese.xml Portuguese] || 1.1 || 05/04/2011 ||
-|| Pohran || [http://gwatchman.googlecode.com/svn/languages/Russian.xml Russian] || 1.0 || 30/05/2011 ||
-|| [mailto:eme3studio@gmail.com ToMMZ] || [http://gwatchman.googlecode.com/svn/languages/Spanish.xml Spanish] || 1.0 || 04/11/2010 ||
-|| Pyloge || [http://gwatchman.googlecode.com/svn/languages/Turkish.xml Turkish] || 1.0 || 10/12/2011 ||
-|| Yoann || [http://gwatchman.googlecode.com/svn/languages/French.xml French] || 1.0 || 25/02/2012 ||
-|| Harold || [http://gwatchman.googlecode.com/svn/languages/Dutch.xml Dutch] || 1.0 || 03/04/2012 ||
+|| Language file || Translated by || Version || Last update ||
+|| [http://gwatchman.googlecode.com/svn/languages/Azerbaijani.xml Azerbaijani] || Ilkin || 1.0 || 07/04/2011 ||
+|| [http://gwatchman.googlecode.com/svn/languages/Chinese.xml Chinese] || [mailto:tian.exe@gmail.com Tevin] || 1.1 || 11/10/2010 ||
+|| [http://gwatchman.googlecode.com/svn/languages/Dutch.xml Dutch] || Harold || 1.0 || 03/04/2012 ||
+|| [http://gwatchman.googlecode.com/svn/languages/English.xml English] || [mailto:herhor@o2.pl me] || 1.1 ||  01/11/2010 ||
+|| [http://gwatchman.googlecode.com/svn/languages/French.xml French] || Yoann || 1.0 || 25/02/2012 ||
+|| [http://gwatchman.googlecode.com/svn/languages/German.xml German] || Aga || 1.0 || 11/11/2010 ||
+|| [http://gwatchman.googlecode.com/svn/languages/Italian.xml Italian] || Drugo || 1.0 || 05/04/2011 ||
+|| [http://gwatchman.googlecode.com/svn/languages/Japanese.xml Japanese] || [mailto:lang@hlang.com LANG] || 1.0 || 20/11/2010 ||
+|| [http://gwatchman.googlecode.com/svn/languages/Korean.xml Korean] || [mailto:sea4hans@gmail.com Kevin] || 1.0 || 27/11/2010 ||
+|| [http://gwatchman.googlecode.com/svn/languages/Polish.xml Polish] || [mailto:herhor@o2.pl me] || 1.1 || 01/11/2010 ||
+|| [http://gwatchman.googlecode.com/svn/languages/Portuguese.xml Portuguese] || Trambulhao || 1.1 || 05/04/2011 ||
+|| [http://gwatchman.googlecode.com/svn/languages/Russian.xml Russian] || Pohran || 1.0 || 30/05/2011 ||
+|| [http://gwatchman.googlecode.com/svn/languages/Spanish.xml Spanish] || [mailto:eme3studio@gmail.com ToMMZ] || 1.0 || 04/11/2010 ||
+|| [http://gwatchman.googlecode.com/svn/languages/Turkish.xml Turkish] || Pyloge || 1.0 || 10/12/2011 ||
