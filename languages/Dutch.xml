@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?><!DOCTYPE lang[<!ELEMENT lang (item+)><!ELEMENT item (#PCDATA)><!ATTLIST item id ID #REQUIRED>]>
+<lang>
+	<!-- ALERT -->
+	<item id="hide">verbergen</item>
+	<item id="hideLinkTip">Minimaliseer naar system tray</item>
+	<item id="readerLabelTip">Controleer lezer nu</item>
+	<item id="readerLogoTip">Open in browser</item>
+	<item id="mailLabelTip">Controleer mail nu</item>
+	<item id="mailLogoTip">Open in browser</item>
+	<item id="oneMessageAlert">Je hebt %n ongelezen bericht</item>
+	<item id="manyMessagesAlert">Je hebt %n ongelezen berichten</item>
+	<item id="oneFeedAlert">Je hebt %n ongelezen feed</item>
+	<item id="manyFeedsAlert">Je hebt %n ongelezen feeds</item>
+	
+	<!-- Tray Menu -->
+	<item id="show">Controleer</item>
+	<item id="settings">Instellingen</item>
+	<item id="update">Bijwerken</item>
+	<item id="exit">Afsluiten</item>
+	
+	<!-- Update dialog -->
+	<item id="updateNotAvailableTitle">Geen update beschikbaar</item>
+	<item id="updateNotAvailableMsg">Je hebt de nieuwste versie van GWatchman</item>
+	<item id="updateAvailableTitle">Update beschikbaar</item>
+	<item id="updateAvailable">Een nieuwe versie van GWatchman is beschikbaar!</item>
+	<item id="yourVersion">Je versie</item>
+	<item id="latestVersion">Laatste versie</item>
+	<item id="downloadLatestQuestion">Wil je de laatste versie downloaden?</item>	
+
+
+	<!-- SETTINGS -->
+	
+	<!-- tree -->
+	<item id="account">Account</item>
+	<item id="alert">Bericht</item>
+	<item id="general">Algemeen</item>
+	<item id="about">Over</item>
+
+	<!-- buttons -->
+	<item id="close">Sluiten</item>
+	<item id="apply">Toepassen</item>
+
+	<!-- account page -->
+	<item id="username">Gebruikers naam</item>
+	<item id="password">Wachtwoord</item>
+	<item id="rememberLogin">Onthoudt mijn login</item>
+	<item id="rememberPassword">Onthoudt login en  wachtwoord</item>
+	<item id="mail">Mail</item>
+	<item id="reader">Reader</item>
+	<item id="checkEvery">Controleer elke </item>
+	<item id="noAutoCheck">Geen auto-controle</item>
+	
+	<!-- alert page -->
+	<item id="action">Actie</item>
+	<item id="nativePopup">Ingebouwde pop-up</item>
+	<item id="nativePopupSettings">Ingebouwde pop-up instellingen</item>
+	<item id="position">Positie</item>
+	<item id="top">Boven</item>
+	<item id="bottom">Onder</item>
+	<item id="middle">Midden</item>
+	<item id="left">Links</item>
+	<item id="right">Rechts</item>
+	<item id="center">Centraal</item>
+	<item id="custom">Eigen</item>
+	<item id="background">Achtergrond</item>
+	<item id="backgroundTip">Toon een lijst met afbeeldingen (png,bmp,jpg,gif)\nuit de 'Achtergrond' map</item>
+	<item id="textColor">Tekst kleur</item>
+	<item id="textColorTip">html hex kleur als hex of naam, i.e.:</item>
+	<item id="opacity">Transparantie</item>
+	<item id="dismissDelay">Pop-up periode</item>
+
+	<!-- general page -->
+	<item id="language">Taal</item>
+	<item id="startWithSystem">Start met windows</item>
+	<item id="getLanguages">Verkrijg meer talen</item>
+	<item id="updateOnStart">Controleer op updates bij starten</item>
+
+	<!-- about page -->
+	<item id="aboutText">GWatchman is een freeware app gemaakt om de tijd te doden en om dingen makkelijker en sneller te maken.\n\nAls je meer wilt weten kijk dan op de project website:</item>
+</lang>
