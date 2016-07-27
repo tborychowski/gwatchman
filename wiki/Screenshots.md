@@ -1,7 +1,7 @@
 ## Pop-ups ##
+
 | **Native Popup - bottom** | **Native Popup - top** |
-|:--------------------------|:-----------------------|
-| ![http://gwatchman.googlecode.com/svn/screens/alert-new.png](screens/alert-new.png) | ![http://gwatchman.googlecode.com/svn/screens/alert-top.png](/screens/alert-top.png) |
+| ![http://gwatchman.googlecode.com/svn/screens/alert-new.png](screens/alert-new.png) | ![http://gwatchman.googlecode.com/svn/screens/alert-top.png](screens/alert-top.png) |
 
 | **Native Popup - single** | **Native Popup - wide** |
 |:--------------------------|:------------------------|
