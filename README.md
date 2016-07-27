@@ -10,7 +10,7 @@ Sits in the tray and periodically checks google services (mail, reader) for new 
   * skinnable - you can use [custom backgrounds](wiki/Backgrounds.md)
   * integrated with [Growl for windows](http://www.growlforwindows.com) - you can show Growl popups instead of the native ones<br>
 <ul><li>completely portable - settings are stored in a simple and readable xml file in the same folder as the exe file<br>
-</li><li><a href='http://code.google.com/p/gwatchman/wiki/Languages'>Localization support</a>
+</li><li><a href='wiki/Languages.md'>Localization support</a>
 </li><li>Options: run application with:<br>
 <ul><li><b>-debug</b> switch - to log connection status events to GWatch.log file<br>
 </li><li><b>-proxy</b> switch - to connect through default system proxy server (experimental)</li></ul></li></ul>
@@ -42,7 +42,7 @@ The main executable file (GWatchman.exe) is the same for both versions. Mini ver
 <h2>Feedback</h2>
 If you like/dislike the app, have some suggestions or ideas, please let me know in the comments on my blog: <a href='http://brainhog.blogspot.com/2010/10/gwatchman-updated.html'>brainhog.blogspot.com</a>
 
-If you discovered a bug/issue please report it here: <a href='issues'>report issue</a>.<br>
+If you discovered a bug/issue please report it here: <a href='https://github.com/tborychowski/gwatchman/issues'>report issue</a>.<br>
 <br>
 Please also read the <a href='wiki/FAQ'>FAQ</a> before posting an issue, as sometimes the problem might be elsewhere.<br>
 <br>
