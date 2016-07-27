@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?><!DOCTYPE lang[<!ELEMENT lang (item+)><!ELEMENT item (#PCDATA)><!ATTLIST item id ID #REQUIRED>]>
+<lang>
+	<!-- ALERT -->
+	<item id="hide">Спрятать</item>
+	<item id="hideLinkTip">Свернуть </item>
+	<item id="readerLabelTip">Проверить подписки</item>
+	<item id="readerLogoTip">Открыть в браузере</item>
+	<item id="mailLabelTip">Проверить почту</item>
+	<item id="mailLogoTip">Открыть в браузере</item>
+	<item id="oneMessageAlert">У вас %n новое сообщение</item>
+	<item id="manyMessagesAlert">У вас %n новых сообщений</item>
+	<item id="oneFeedAlert">У вас %n новая запись</item>
+	<item id="manyFeedsAlert">У вас %n новых записей</item>
+	
+	<!-- Tray Menu -->
+	<item id="show">Показать</item>
+	<item id="settings">Настройки</item>
+	<item id="update">Обновить</item>
+	<item id="exit">Выход</item>
+	
+	<!-- Update dialog -->
+	<item id="updateNotAvailableTitle">Нет доступных обновлений</item>
+	<item id="updateNotAvailableMsg">Вы используете последнюю версию GWatchman</item>
+	<item id="updateAvailableTitle">Доступно обновление</item>
+	<item id="updateAvailable">Доступна новая версия GWatchman!</item>
+	<item id="yourVersion">Ваша версия</item>
+	<item id="latestVersion">Последняя версия</item>
+	<item id="downloadLatestQuestion">Скачать последнее обновление?</item>	
+
+
+	<!-- SETTINGS -->
+	
+	<!-- tree -->
+	<item id="account">Аккаунт</item>
+	<item id="alert">Оповещение</item>
+	<item id="general">Главные</item>
+	<item id="about">О программе</item>
+
+	<!-- buttons -->
+	<item id="close">Закрыть</item>
+	<item id="apply">Применить</item>
+
+	<!-- account page -->
+	<item id="username">Логин</item>
+	<item id="password">Пароль</item>
+	<item id="rememberLogin">Запомнить логин</item>
+	<item id="rememberPassword">Запомнить логин и пароль</item>
+	<item id="mail">Почта</item>
+	<item id="reader">Подписки</item>
+	<item id="checkEvery">Проверять каждые</item>
+	<item id="noAutoCheck">Не проверять</item>
+	
+	<!-- alert page -->
+	<item id="action">Действие</item>
+	<item id="nativePopup">Всплывающее окно</item>
+	<item id="nativePopupSettings">Настройки всплывающего окна</item>
+	<item id="position">Положение</item>
+	<item id="top">Сверху</item>
+	<item id="bottom">Внизу</item>
+	<item id="middle">Посередине</item>
+	<item id="left">Слева</item>
+	<item id="right">Справа</item>
+	<item id="center">Посередине</item>
+	<item id="custom">Своё</item>
+	<item id="background">Задний фон</item>
+	<item id="backgroundTip">Список изображений (png,bmp,jpg,gif) из папки 'background'</item>
+	<item id="textColor">Цвет текста</item>
+	<item id="textColorTip">Код цвета в HTML или название цвета, например:</item>
+	<item id="opacity">Прозрачность</item>
+	<item id="dismissDelay">Задержка</item>
+
+	<!-- general page -->
+	<item id="language">Язык</item>
+	<item id="startWithSystem">Запускать при включении</item>
+	<item id="getLanguages">Получить больше языков</item>
+	<item id="updateOnStart">Проверять обновления при запуске</item>
+
+	<!-- about page -->
+	<item id="aboutText">GWatchman - это бесплатная программа, созданная чтобы убить время и сделать некоторые вещи попроще.\n\nЕсли нужна дополнительная информация посетите сайт проекта:</item>
+</lang>

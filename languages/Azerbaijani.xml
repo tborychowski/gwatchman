@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?><!DOCTYPE lang[<!ELEMENT lang (item+)><!ELEMENT item (#PCDATA)><!ATTLIST item id ID #REQUIRED>]>
+<lang>
+	<!-- ALERT -->
+	<item id="hide">gizlət</item>
+	<item id="hideLinkTip">Sistem panelinə minimallaşdır</item>
+	<item id="readerLabelTip">Readeri yoxla</item>
+	<item id="readerLogoTip">Brauzerdə aç</item>
+	<item id="mailLabelTip">E-Poçtu yoxla</item>
+	<item id="mailLogoTip">Brauzerdə aç</item>
+	<item id="oneMessageAlert">%n ədəd oxunmamış məktub</item>
+	<item id="manyMessagesAlert">%n ədəd oxunmamış məktub</item>
+	<item id="oneFeedAlert">%n ədəd oxunmamış axın</item>
+	<item id="manyFeedsAlert">%n ədəd oxunmamış axın</item>
+	
+	<!-- Tray Menu -->
+	<item id="show">Göstər</item>
+	<item id="settings">Ayarlar</item>
+	<item id="update">Yenilə</item>
+	<item id="exit">Çıxış</item>
+	
+	<!-- Update dialog -->
+	<item id="updateNotAvailableTitle">Yeni versiya yoxdur</item>
+	<item id="updateNotAvailableMsg">GWatchman proqramının son versiyasını istifadə edirsiniz</item>
+	<item id="updateAvailableTitle">Yeniləmə mövcuddur</item>
+	<item id="updateAvailable">GWatchman proqramının yeni versiyası mövcuddur!</item>
+	<item id="yourVersion">Cari versiya</item>
+	<item id="latestVersion">Sonuncu versiya</item>
+	<item id="downloadLatestQuestion">Sonuncu faylı endirmək istəyirsinizmi?</item>	
+
+
+	<!-- SETTINGS -->
+	
+	<!-- tree -->
+	<item id="account">Hesab</item>
+	<item id="alert">Xəbərdarlıq</item>
+	<item id="general">Ümumi</item>
+	<item id="about">Haqqında</item>
+
+	<!-- buttons -->
+	<item id="close">Bağla</item>
+	<item id="apply">Tətbiq et</item>
+
+	<!-- account page -->
+	<item id="username">Login</item>
+	<item id="password">Şifrə</item>
+	<item id="rememberLogin">Loginimi yadda saxla</item>
+	<item id="rememberPassword">Loginimi və şifrəmi yadda saxla</item>
+	<item id="mail">E-Poçt</item>
+	<item id="reader">Axın</item>
+	<item id="checkEvery">Yoxla, hər</item>
+	<item id="noAutoCheck">Avto yoxlama bağlı</item>
+	
+	<!-- alert page -->
+	<item id="action">Əməliyyat</item>
+	<item id="nativePopup">Yerli pop-up</item>
+	<item id="nativePopupSettings">Yerli pop-up ayarları</item>
+	<item id="position">Mövqe</item>
+	<item id="top">Üst</item>
+	<item id="bottom">Alt</item>
+	<item id="middle">Orta</item>
+	<item id="left">Sol</item>
+	<item id="right">Sağ</item>
+	<item id="center">Mərkəz</item>
+	<item id="custom">Fərdi</item>
+	<item id="background">Arxa plan</item>
+	<item id="backgroundTip">'Arxa plan' qovluğundan\nşəkil siyahısını (png,bmp,jpg,gif) göstər</item>
+	<item id="textColor">Yazı rəngi</item>
+	<item id="textColorTip">html onaltılıq rəngi onaltılıq və ya ad kimi, yəni:</item>
+	<item id="opacity">Qeyri-şəffaflıq</item>
+	<item id="dismissDelay">Gecikməni rədd et</item>
+
+	<!-- general page -->
+	<item id="language">Dil</item>
+	<item id="startWithSystem">Sistemlə başla</item>
+	<item id="getLanguages">Digər dillər</item>
+	<item id="updateOnStart">Başlanğıcda yeniliyi yoxla</item>
+
+	<!-- about page -->
+	<item id="aboutText">GWatchman vaxtı öldürmək üçün və bir neçə işi asan və sürətli etmək üçün pulsuz proqramdır.\n\nƏlavə məlumat üçün layihənin veb-saytına daxil olun:</item>
+</lang>
