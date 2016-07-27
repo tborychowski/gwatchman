@@ -44,7 +44,7 @@ If you like/dislike the app, have some suggestions or ideas, please let me know 
 
 If you discovered a bug/issue please report it here: <a href='https://github.com/tborychowski/gwatchman/issues'>report issue</a>.<br>
 <br>
-Please also read the <a href='wiki/FAQ'>FAQ</a> before posting an issue, as sometimes the problem might be elsewhere.<br>
+Please also read the <a href='wiki/FAQ.md'>FAQ</a> before posting an issue, as sometimes the problem might be elsewhere.<br>
 <br>
 Tweet this project:<br>
 <a href='http://twitter.com/home?status=%23GWatchman - https://github.com/Threetwosevensixseven/gwatchman' title='Tweet this project'><img src='http://twitter-badges.s3.amazonaws.com/twitter-b.png' alt='Tweet this project' align='middle' /></a>
