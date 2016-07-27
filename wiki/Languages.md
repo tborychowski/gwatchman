@@ -31,17 +31,17 @@ Right-click -> Save as:
 
 | Language file | Translated by | Version | Last update |
 |:--------------|:--------------|:--------|:------------|
-| [Azerbaijani](http://gwatchman.googlecode.com/svn/languages/Azerbaijani.xml) | Ilkin | 1.0 | 07/04/2011 |
-| [Chinese](http://gwatchman.googlecode.com/svn/languages/Chinese.xml) | [Tevin](mailto:tian.exe@gmail.com) | 1.1 | 11/10/2010 |
-| [Dutch](http://gwatchman.googlecode.com/svn/languages/Dutch.xml) | Harold | 1.0 | 03/04/2012 |
-| [English](http://gwatchman.googlecode.com/svn/languages/English.xml) | [me](mailto:herhor@o2.pl) | 1.1 |  01/11/2010 |
-| [French](http://gwatchman.googlecode.com/svn/languages/French.xml) | Yoann | 1.0 | 25/02/2012 |
-| [German](http://gwatchman.googlecode.com/svn/languages/German.xml) | Aga | 1.0 | 11/11/2010 |
-| [Italian](http://gwatchman.googlecode.com/svn/languages/Italian.xml) | Drugo | 1.0 | 05/04/2011 |
-| [Japanese](http://gwatchman.googlecode.com/svn/languages/Japanese.xml) | [LANG](mailto:lang@hlang.com) | 1.0 | 20/11/2010 |
-| [Korean](http://gwatchman.googlecode.com/svn/languages/Korean.xml) | [Kevin](mailto:sea4hans@gmail.com) | 1.0 | 27/11/2010 |
-| [Polish](http://gwatchman.googlecode.com/svn/languages/Polish.xml) | [me](mailto:herhor@o2.pl) | 1.1 | 01/11/2010 |
-| [Portuguese](http://gwatchman.googlecode.com/svn/languages/Portuguese.xml) | Trambulhao | 1.1 | 05/04/2011 |
-| [Russian](http://gwatchman.googlecode.com/svn/languages/Russian.xml) | Pohran | 1.0 | 30/05/2011 |
-| [Spanish](http://gwatchman.googlecode.com/svn/languages/Spanish.xml) | [ToMMZ](mailto:eme3studio@gmail.com) | 1.0 | 04/11/2010 |
-| [Turkish](http://gwatchman.googlecode.com/svn/languages/Turkish.xml) | Pyloge | 1.0 | 10/12/2011 |
+| [Azerbaijani](../languages/Azerbaijani.xml) | Ilkin | 1.0 | 07/04/2011 |
+| [Chinese](../languages/Chinese.xml) | [Tevin](mailto:tian.exe@gmail.com) | 1.1 | 11/10/2010 |
+| [Dutch](../languages/Dutch.xml) | Harold | 1.0 | 03/04/2012 |
+| [English](../languages/English.xml) | [me](mailto:herhor@o2.pl) | 1.1 |  01/11/2010 |
+| [French](../languages/French.xml) | Yoann | 1.0 | 25/02/2012 |
+| [German](../languages/German.xml) | Aga | 1.0 | 11/11/2010 |
+| [Italian](../languages/Italian.xml) | Drugo | 1.0 | 05/04/2011 |
+| [Japanese](../languages/Japanese.xml) | [LANG](mailto:lang@hlang.com) | 1.0 | 20/11/2010 |
+| [Korean](../languages/Korean.xml) | [Kevin](mailto:sea4hans@gmail.com) | 1.0 | 27/11/2010 |
+| [Polish](../languages/Polish.xml) | [me](mailto:herhor@o2.pl) | 1.1 | 01/11/2010 |
+| [Portuguese](../languages/Portuguese.xml) | Trambulhao | 1.1 | 05/04/2011 |
+| [Russian](../languages/Russian.xml) | Pohran | 1.0 | 30/05/2011 |
+| [Spanish](../languages/Spanish.xml) | [ToMMZ](mailto:eme3studio@gmail.com) | 1.0 | 04/11/2010 |
+| [Turkish](../languages/Turkish.xml) | Pyloge | 1.0 | 10/12/2011 |
