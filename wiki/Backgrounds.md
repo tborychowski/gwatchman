@@ -14,10 +14,10 @@ Pop-up size will be adjusted to the image size, so you have a few options:
 Here are some sample backgrounds (I'm not a graphic designer!).
 They are also included in the latest release zip (in downloads).
 
-| default | ![http://gwatchman.googlecode.com/svn/background/default.png](http://gwatchman.googlecode.com/svn/background/default.png) |
+| default | ![http://gwatchman.googlecode.com/svn/background/default.png](../background/default.png) |
 |:--------|:--------------------------------------------------------------------------------------------------------------------------|
-| normal | ![http://gwatchman.googlecode.com/svn/background/jeans.png](http://gwatchman.googlecode.com/svn/background/jeans.png) |
-| normal bottom | ![http://gwatchman.googlecode.com/svn/background/black-bottom.png](http://gwatchman.googlecode.com/svn/background/black-bottom.png) |
-| normal top | ![http://gwatchman.googlecode.com/svn/background/black-top.png](http://gwatchman.googlecode.com/svn/background/black-top.png) |
-| wide top | ![http://gwatchman.googlecode.com/svn/background/black-wide-top.png](http://gwatchman.googlecode.com/svn/background/black-wide-top.png) |
-| single bottom | ![http://gwatchman.googlecode.com/svn/background/bottom-single.png](http://gwatchman.googlecode.com/svn/background/bottom-single.png) |
+| normal | ![http://gwatchman.googlecode.com/svn/background/jeans.png](../background/jeans.png) |
+| normal bottom | ![http://gwatchman.googlecode.com/svn/background/black-bottom.png](../background/black-bottom.png) |
+| normal top | ![http://gwatchman.googlecode.com/svn/background/black-top.png](../background/black-top.png) |
+| wide top | ![http://gwatchman.googlecode.com/svn/background/black-wide-top.png](../background/black-wide-top.png) |
+| single bottom | ![http://gwatchman.googlecode.com/svn/background/bottom-single.png](../background/bottom-single.png) |
