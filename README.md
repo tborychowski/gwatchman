@@ -38,6 +38,10 @@ The main executable file (GWatchman.exe) is the same for both versions. Mini ver
 </li><li><a href='http://www.growlforwindows.com'>Growl for windows</a> - if you want to use Growl popups<br>
 </li><li>Windows XP/Vista/7/8/8.1/10 (x86/x64)</li></ul>
 
+<h2>Licensing</h2>
+GWatchman is free software provided under the GNU General Public License (GPLv2). 
+
+For more information see [LICENSE.md] (LICENSE.md).
 
 <h2>Feedback</h2>
 If you like/dislike the app, have some suggestions or ideas, please let me know in the comments on my blog: <a href='http://brainhog.blogspot.com/2010/10/gwatchman-updated.html'>brainhog.blogspot.com</a>
