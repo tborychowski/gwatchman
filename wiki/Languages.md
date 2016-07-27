@@ -28,6 +28,7 @@ If you want to contribute - send me your translation (tborychowski@gmail) and I 
 
 ## Available Languages ##
 Right-click -> Save as:
+
 | Language file | Translated by | Version | Last update |
 |:--------------|:--------------|:--------|:------------|
 | [Azerbaijani](http://gwatchman.googlecode.com/svn/languages/Azerbaijani.xml) | Ilkin | 1.0 | 07/04/2011 |
