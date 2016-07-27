@@ -2,9 +2,9 @@
 
 ### v.1.0.6.7 beta (2011-11-08) ###
   * Added Russian translation
-  * It works with hosted domains (google apps) ([issue 22](https://code.google.com/p/gwatchman/issues/detail?id=22))
-  * Gmail url for getting unread messages counter updated ([issue 49](https://code.google.com/p/gwatchman/issues/detail?id=49), [issue 50](https://code.google.com/p/gwatchman/issues/detail?id=50))
-  * Fixed reader issue with password containing strange characters ([issue 45](https://code.google.com/p/gwatchman/issues/detail?id=45)), thanks to Santy
+  * It works with hosted domains (google apps) ([issue 22](https://github.com/tborychowski/gwatchman/issues/22))
+  * Gmail url for getting unread messages counter updated ([issue 49](https://github.com/tborychowski/gwatchman/issues/49), [issue 50](https://github.com/tborychowski/gwatchman/issues/50))
+  * Fixed reader issue with password containing strange characters ([issue 45](https://github.com/tborychowski/gwatchman/issues/45)), thanks to Santy
 
 ### v.1.0.6.6 beta (2011-04-08) ###
   * Added translation for Azerbaijani and Italian
@@ -15,13 +15,13 @@
 
 ### v.1.0.6.5 beta (2011-03-28) ###
   * Added translation for Korean and Portuguese
-  * Fixed [issue 37](https://code.google.com/p/gwatchman/issues/detail?id=37) when program displayed a .NET error on start-up (thanks to m.sobotka)
+  * Fixed [issue 37](https://github.com/tborychowski/gwatchman/issues/37) when program displayed a .NET error on start-up (thanks to m.sobotka)
   * Fixed a bug when "apply settings" was multiplying "background" list.
 
 ### v.1.0.6.0 beta (2010-11-20) ###
-  * Added growl click action (click on alert opens default browser with relevant Google App) ([issue 34](https://code.google.com/p/gwatchman/issues/detail?id=34))
+  * Added growl click action (click on alert opens default browser with relevant Google App) ([issue 34](https://github.com/tborychowski/gwatchman/issues/34))
   * Added debug option (run application with -debug switch like this: "GWatch.exe -debug" and it will create GWatch.log with connection status events)
-  * Added experimental proxy support ([issue 35](https://code.google.com/p/gwatchman/issues/detail?id=35)) (run application with -proxy switch)
+  * Added experimental proxy support ([issue 35](https://github.com/tborychowski/gwatchman/issues/35)) (run application with -proxy switch)
   * Added "About" to the tray menu
   * Added translation for Japanese
   * Enhanced and localized position controls in settings
@@ -30,30 +30,30 @@
 
 
 ### v.1.0.5.2 beta (2010-11-17) ###
-  * Fixed some random .NET bugs ([issue 33](https://code.google.com/p/gwatchman/issues/detail?id=33))
+  * Fixed some random .NET bugs ([issue 33](https://github.com/tborychowski/gwatchman/issues/33))
   * Fixed checking one thing only (either Gmail or GReader)
   * Fixed bug when no settings file found
 
 
 ### v.1.0.5.1 beta (2010-11-14) ###
   * Added translations for: Chinese, Spanish and German
-  * Added tray icon tooltip with unread numbers ([issue 30](https://code.google.com/p/gwatchman/issues/detail?id=30))
-  * Fixed .NET bug with huge number of emails/feeds ([issue 31](https://code.google.com/p/gwatchman/issues/detail?id=31))
+  * Added tray icon tooltip with unread numbers ([issue 30](https://github.com/tborychowski/gwatchman/issues/30))
+  * Fixed .NET bug with huge number of emails/feeds ([issue 31](https://github.com/tborychowski/gwatchman/issues/31))
 
 
 ### v.1.0.5.0 beta (2010-10-10) ###
-  * Added localization support ([issue 6](https://code.google.com/p/gwatchman/issues/detail?id=6))
+  * Added localization support ([issue 6](https://github.com/tborychowski/gwatchman/issues/6))
   * Added tray icon animation when checking for unread items
-  * Added tray icon star and error overlays ([issue 29](https://code.google.com/p/gwatchman/issues/detail?id=29))
-  * Added "Update" option to the tray menu and "Check for updates on start" to general settings ([issue 28](https://code.google.com/p/gwatchman/issues/detail?id=28))
+  * Added tray icon star and error overlays ([issue 29](https://github.com/tborychowski/gwatchman/issues/29))
+  * Added "Update" option to the tray menu and "Check for updates on start" to general settings ([issue 28](https://github.com/tborychowski/gwatchman/issues/28))
   * Fixed labels alignment on native pop-up (min. width to 140px)
-  * Fixed settings reading: each entry is validated separately (that means more backwards compatibility with reading settings) ([issue 27](https://code.google.com/p/gwatchman/issues/detail?id=27))
+  * Fixed settings reading: each entry is validated separately (that means more backwards compatibility with reading settings) ([issue 27](https://github.com/tborychowski/gwatchman/issues/27))
 
 
 ### v.1.0.4.5 beta (2010-09-26) ###
   * Added option to turn off mail or reader checking
-  * Added support for checking all folders/labels for gmail ([issue 25](https://code.google.com/p/gwatchman/issues/detail?id=25))
-  * Added option to change background image and text color for native pop-up ([Issue 5](https://code.google.com/p/gwatchman/issues/detail?id=5))
+  * Added support for checking all folders/labels for gmail ([issue 25](https://github.com/tborychowski/gwatchman/issues/25))
+  * Added option to change background image and text color for native pop-up ([Issue 5](https://github.com/tborychowski/gwatchman/issues/5))
   * Added "dismiss delay" option to native pop-up settings
 
 ### v.1.0.4.4 beta1 (2010-09-11) ###
