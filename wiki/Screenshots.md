@@ -12,7 +12,5 @@
 | **Account settings** | **Alert Settings** |
 |:--------------------:|:------------------:|
 | ![http://gwatchman.googlecode.com/svn/screens/settings-account.png](screens/settings-account.png) | ![http://gwatchman.googlecode.com/svn/screens/settings-alert.png](screens/settings-alert.png) |
-
 | **General settings** | **About** |
-|:--------------------:|:---------:|
 | ![http://gwatchman.googlecode.com/svn/screens/settings-general.png](screens/settings-general.png) | ![http://gwatchman.googlecode.com/svn/screens/settings-about.png](screens/settings-about.png) |
