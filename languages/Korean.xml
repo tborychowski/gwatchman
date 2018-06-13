@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?><!DOCTYPE lang[<!ELEMENT lang (item+)><!ELEMENT item (#PCDATA)><!ATTLIST item id ID #REQUIRED>]>
+<lang>
+	<!-- ALERT -->
+	<item id="hide">숨기기</item>
+	<item id="hideLinkTip">시스템 트레이로 내리기</item>
+	<item id="readerLabelTip">리더 검사</item>
+	<item id="readerLogoTip">브라우저에서 열기</item>
+	<item id="mailLabelTip">이메일 검사</item>
+	<item id="mailLogoTip">브라우저에서 열기</item>
+	<item id="oneMessageAlert">%n 개의 읽지 않은 메시지가 있습니다.</item>
+	<item id="manyMessagesAlert">%n 개의 읽지 않은 메시지들이 있습니다</item>
+	<item id="oneFeedAlert">%n 개의 읽지 않은 피드가 있습니다</item>
+	<item id="manyFeedsAlert">%n 개의 읽지 않은 피드들이 있습니다</item>
+	
+	<!-- Tray Menu -->
+	<item id="show">보기</item>
+	<item id="settings">설정</item>
+	<item id="update">업데이트</item>
+	<item id="exit">종료</item>
+	
+	<!-- Update dialog -->
+	<item id="updateNotAvailableTitle">업데이트 할 것이 없습니다</item>
+	<item id="updateNotAvailableMsg">당신은 GWatchman의 가장 최신버전을 사용하고 있습니다</item>
+	<item id="updateAvailableTitle">업데이트 할 수 있습니다</item>
+	<item id="updateAvailable">새로운 버전의 GWatchman이 있습니다!</item>
+	<item id="yourVersion">갖고 있는 버전</item>
+	<item id="latestVersion">최신 버전</item>
+	<item id="downloadLatestQuestion">가장 최신의 파일을 다운로드 하겠습니까?</item>	
+
+
+	<!-- SETTINGS -->
+	
+	<!-- tree -->
+	<item id="account">계정</item>
+	<item id="alert">경고</item>
+	<item id="general">일반</item>
+	<item id="about">이것에 대하여</item>
+
+	<!-- buttons -->
+	<item id="close">닫기</item>
+	<item id="apply">적용</item>
+
+	<!-- account page -->
+	<item id="username">사용자 이름</item>
+	<item id="password">비밀번호</item>
+	<item id="rememberLogin">사용자 이름 기억하기</item>
+	<item id="rememberPassword">사용자 이름과 비밀번호 기억하기</item>
+	<item id="mail">메일</item>
+	<item id="reader">리더</item>
+	<item id="checkEvery">매번 검사하기</item>
+	<item id="noAutoCheck">자동 검사하지 않기</item>
+	
+	<!-- alert page -->
+	<item id="action">액션</item>
+	<item id="nativePopup">네이티브 팝업</item>
+	<item id="nativePopupSettings">네이티브 팝업 설정</item>
+	<item id="position">위치</item>
+	<item id="top">위</item>
+	<item id="bottom">아래</item>
+	<item id="middle">중간</item>
+	<item id="left">왼쪽</item>
+	<item id="right">오른쪽</item>
+	<item id="center">중간</item>
+	<item id="custom">사용자 설정</item>
+	<item id="background">배경</item>
+	<item id="backgroundTip">'background' 폴더에서 \n 이미지(png,bmp,jpg,gif) 보여주기</item>
+	<item id="textColor">텍스트 색</item>
+	<item id="textColorTip">예를 들면, html 색을 16진수나 이름으로 하시요:</item>
+	<item id="opacity">투명도</item>
+	<item id="dismissDelay">지연하지 않음</item>
+
+	<!-- general page -->
+	<item id="language">언어</item>
+	<item id="startWithSystem">시스템 시작과 함께 구동</item>
+	<item id="getLanguages">다른 언어 사용</item>
+	<item id="updateOnStart">시작할때 업데이트 검사</item>
+
+	<!-- about page -->
+	<item id="aboutText">GWatchman은 일을 쉽고 빠르게 할 수 있는 프리웨어입니다.\n\n더 구체적인 것을 원하시면, 해당 프로젝트의 웹사이트를 방문하세요:</item>
+</lang>
